@@ -1,0 +1,81 @@
+name: Daily CRE Brief
+
+# Runs in GitHub's cloud, not on your laptop. Your machine can be closed.
+on:
+  schedule:
+    # GitHub cron is always UTC. 11:30 UTC = 6:30 AM CDT / 5:30 AM CST.
+    # Weekdays only — markets are closed on weekends and there's nothing to say.
+    - cron: "30 11 * * 1-5"
+  workflow_dispatch:        # the "Run workflow" button, for testing
+
+permissions:
+  contents: write           # needed to commit the brief and update the log
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect sources
+        run: python collect/gather.py --verbose
+
+      - name: Generate brief
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BRIEF_MODEL: ${{ vars.BRIEF_MODEL || 'claude-sonnet-4-6' }}
+        run: python brief/generate.py
+
+      - name: Commit brief and memory
+        run: |
+          git config user.name  "brief-bot"
+          git config user.email "brief-bot@users.noreply.github.com"
+          git add state/ docs/
+          # No commit when nothing changed — keeps history clean.
+          git diff --staged --quiet || git commit -m "Brief for $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          keep_files: true
+
+      - name: Push to phone
+        # `always()` so a delivery hiccup doesn't hide a brief that built fine.
+        if: always()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          BRIEF_URL:  ${{ vars.BRIEF_URL }}
+          SMTP_HOST:  ${{ secrets.SMTP_HOST }}
+          SMTP_USER:  ${{ secrets.SMTP_USER }}
+          SMTP_PASS:  ${{ secrets.SMTP_PASS }}
+          MAIL_TO:    ${{ secrets.MAIL_TO }}
+        run: python deliver/push.py
+
+      - name: Upload brief as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brief-${{ github.run_number }}
+          path: |
+            state/brief-*.md
+            state/raw.json
+          retention-days: 14

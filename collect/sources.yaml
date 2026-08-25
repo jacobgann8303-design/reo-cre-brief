@@ -1,0 +1,153 @@
+# Source registry for the CRE morning brief.
+#
+# Every feed here was tested and confirmed to return items. Some publishers
+# (GlobeSt, Trepp, ULI, CoStar, CBRE) return HTTP 403 to scripts, so those are
+# routed through Google News site-scoped queries instead, which works fine.
+#
+# `weight` biases which stories the model prioritizes when it has too many.
+# `tier` controls what goes in which section of the brief.
+
+markets:
+  # FRED, no API key. This is the authoritative 10-year, straight from the Fed.
+  treasury_10y:
+    kind: fred
+    series: DGS10
+    label: "10-Year Treasury"
+    unit: percent
+  sp500:
+    kind: fred
+    series: SP500
+    label: "S&P 500"
+    unit: index
+  # Yahoo's chart endpoint, no key. Used for the user's REIT.
+  reit:
+    kind: yahoo
+    symbol_from_state: true      # reads state/log.json -> reit
+    default_symbol: MAA
+    label: "Your REIT"
+
+feeds:
+  # ---------- Tier: national macro ----------
+  - id: cnbc_finance
+    name: CNBC Finance
+    url: https://www.cnbc.com/id/10000664/device/rss/rss.html
+    tier: national
+    weight: 3
+
+  - id: cnbc_realestate
+    name: CNBC Real Estate
+    url: https://www.cnbc.com/id/10000115/device/rss/rss.html
+    tier: national
+    weight: 3
+
+  # ---------- Tier: CRE trade press ----------
+  - id: bisnow
+    name: Bisnow
+    url: https://www.bisnow.com/rss
+    tier: cre
+    weight: 5
+
+  - id: commercial_observer
+    name: Commercial Observer
+    url: https://commercialobserver.com/feed/
+    tier: cre
+    weight: 5
+
+  - id: commercialcafe
+    name: CommercialCafe
+    url: https://www.commercialcafe.com/blog/feed/
+    tier: cre
+    weight: 3
+
+  - id: connectcre
+    name: Connect CRE
+    url: https://www.connectcre.com/feed/
+    tier: cre
+    weight: 3
+
+  - id: rebusiness
+    name: REBusinessOnline
+    url: https://rebusinessonline.com/feed/
+    tier: cre
+    weight: 4
+
+  # Publishers that block scripts — proxied via Google News site: queries.
+  - id: globest
+    name: GlobeSt
+    url: "https://news.google.com/rss/search?q=site:globest.com+when:2d&hl=en-US&gl=US&ceid=US:en"
+    tier: cre
+    weight: 4
+    via: google_news
+
+  - id: costar
+    name: CoStar News
+    url: "https://news.google.com/rss/search?q=site:costar.com+when:2d&hl=en-US&gl=US&ceid=US:en"
+    tier: cre
+    weight: 3
+    via: google_news
+
+  - id: credaily
+    name: CRE Daily
+    url: "https://news.google.com/rss/search?q=site:credaily.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+    tier: cre
+    weight: 4
+    via: google_news
+
+  # ---------- Tier: research / the long read ----------
+  - id: naiop
+    name: NAIOP Market Share
+    url: https://blog.naiop.org/feed/
+    tier: research
+    weight: 4
+
+  - id: propmodo
+    name: Propmodo
+    url: https://propmodo.com/feed/
+    tier: research
+    weight: 3
+
+  - id: trepp
+    name: Trepp (CMBS / credit)
+    url: "https://news.google.com/rss/search?q=site:trepp.com+when:7d&hl=en-US&gl=US&ceid=US:en"
+    tier: research
+    weight: 5
+    via: google_news
+
+  - id: uli
+    name: ULI Urban Land
+    url: "https://news.google.com/rss/search?q=site:urbanland.uli.org+when:7d&hl=en-US&gl=US&ceid=US:en"
+    tier: research
+    weight: 4
+    via: google_news
+
+  - id: cbre
+    name: CBRE Insights
+    url: "https://news.google.com/rss/search?q=site:cbre.com+insights+when:7d&hl=en-US&gl=US&ceid=US:en"
+    tier: research
+    weight: 3
+    via: google_news
+
+  # ---------- Tier: Texas / local relevance ----------
+  - id: texas_cre
+    name: Texas CRE
+    url: "https://news.google.com/rss/search?q=%22commercial+real+estate%22+(Texas+OR+Dallas+OR+Houston+OR+Austin+OR+Lubbock)+when:3d&hl=en-US&gl=US&ceid=US:en"
+    tier: texas
+    weight: 5
+    via: google_news
+
+  # ---------- Tier: concept-rich, for teaching ----------
+  - id: concepts
+    name: Capital markets chatter
+    url: "https://news.google.com/rss/search?q=(%22cap+rate%22+OR+CMBS+OR+%22net+operating+income%22+OR+%22debt+service+coverage%22)+when:3d&hl=en-US&gl=US&ceid=US:en"
+    tier: teaching
+    weight: 4
+    via: google_news
+
+# REO's own public calendar. Live feed — beats the website, which has stale dates.
+reo_calendar: https://calendar.google.com/calendar/ical/info%40ttureo.com/public/basic.ics
+
+limits:
+  per_feed_items: 12          # how many headlines to keep per source
+  max_age_hours: 72           # ignore anything staler than this
+  fetch_timeout_seconds: 20
+  max_chars_to_model: 60000   # keeps token cost predictable
