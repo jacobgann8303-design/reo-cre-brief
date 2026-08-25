@@ -35,13 +35,32 @@ def latest_brief() -> tuple[str, str]:
     files = sorted(STATE.glob("brief-*.md"))
     if not files:
         sys.exit("No brief found. Run brief/generate.py first.")
-    return files[-1].stem.replace("brief-", ""), files[-1].read_text()
+    return (files[-1].stem.replace("brief-", ""),
+            files[-1].read_text(encoding="utf-8"))
 
 
-def make_teaser(text: str, limit: int = 380) -> str:
+# Mirror of the marker generate.py emits. Answers must never reach the lock screen —
+# a question you can already see the answer to isn't retrieval practice.
+ANSWER_RE = re.compile(r"^\s*>?\s*\*{0,2}ANSWER\*{0,2}\s*:\s*", re.I)
+
+
+def first_question(text: str, heading: str) -> str | None:
+    """The question text under a section, with its answer line left behind."""
+    sec = re.search(rf"##\s*{heading}\s*\n(.+?)(?=\n##|\Z)", text, re.S | re.I)
+    if not sec:
+        return None
+    for line in sec.group(1).split("\n"):
+        line = re.sub(r"[*_`]", "", line).strip().lstrip("-").strip()
+        if not line or ANSWER_RE.match(line):
+            continue
+        return line
+    return None
+
+
+def make_teaser(text: str, limit: int = 450) -> str:
     """
-    Notification body: the numbers line plus the concept name. That's the part
-    worth seeing on a lock screen — everything else needs the full page.
+    Notification body: today's numbers, the concept, and the question — never the
+    answer. The lock screen asks; the page answers. That's the whole point.
     """
     parts = []
 
@@ -49,16 +68,15 @@ def make_teaser(text: str, limit: int = 380) -> str:
     if nums:
         body = re.sub(r"[*_`]", "", nums.group(1)).strip()
         lines = [l.strip("- ").strip() for l in body.split("\n") if l.strip()]
-        parts.append(" · ".join(lines[:3]))
+        parts.append(" · ".join(lines[:2]))
 
     concept = re.search(r"##\s*Today'?s concept:?\s*(.+)", text, re.I)
     if concept:
         parts.append(f"Today: {concept.group(1).strip()}")
 
-    move = re.search(r"##\s*Your move\s*\n(.+?)(?=\n##|\Z)", text, re.S | re.I)
-    if move:
-        first = re.sub(r"[*_`]", "", move.group(1)).strip().split("\n")[0]
-        parts.append(f"Do: {first}")
+    quiz = first_question(text, "Check yourself") or first_question(text, "Review")
+    if quiz:
+        parts.append(f"Q: {quiz}")
 
     out = "\n".join(parts) or text[:limit]
     return out[:limit].rstrip() + ("…" if len(out) > limit else "")
@@ -138,7 +156,9 @@ def main() -> int:
         return 0 if ok else 1
 
     date, text = latest_brief()
-    pretty = dt.datetime.strptime(date, "%Y-%m-%d").strftime("%A, %B %-d")
+    # "%-d" is glibc-only and raises on Windows — build it by hand.
+    d = dt.datetime.strptime(date, "%Y-%m-%d")
+    pretty = f"{d:%A, %B} {d.day}"
     sent_any = False
 
     if topic:

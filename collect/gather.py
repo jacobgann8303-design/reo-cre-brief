@@ -50,6 +50,21 @@ UA = "Mozilla/5.0 (compatible; reo-cre-brief/1.0; +https://github.com)"
 VERBOSE = False
 
 
+# strftime's "%-d" / "%-I" (no zero padding) is a glibc extension — it raises on
+# Windows. Build those parts by hand so local runs work everywhere.
+
+def day_label(d: dt.datetime) -> str:
+    return f"{d:%A, %B} {d.day}, {d:%Y}"
+
+
+def short_day(d: dt.datetime) -> str:
+    return f"{d:%a %b} {d.day}"
+
+
+def clock(d: dt.datetime) -> str:
+    return f"{d.hour % 12 or 12}:{d:%M %p}"
+
+
 def log(msg: str) -> None:
     if VERBOSE:
         print(f"  {msg}", file=sys.stderr)
@@ -262,8 +277,8 @@ def fetch_reo(url: str, days_ahead: int = 30, timeout: int = 20) -> list[dict]:
         events.append({
             "summary": summary,
             "start": start.isoformat(),
-            "when": start.strftime("%a %b %-d"),
-            "time": "all day" if ev.get("all_day") else start.strftime("%-I:%M %p"),
+            "when": short_day(start),
+            "time": "all day" if ev.get("all_day") else clock(start),
             "location": ev.get("location", ""),
             "days_out": days_out,
             # Deadlines are the expensive things to miss, so flag them explicitly.
@@ -288,13 +303,14 @@ def main() -> int:
     args = ap.parse_args()
     VERBOSE = args.verbose
 
-    cfg = yaml.safe_load(CONFIG.read_text())
+    cfg = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
     limits = cfg.get("limits", {})
     STATE.mkdir(exist_ok=True)
 
     # Which REIT is the user following? Set once in state/log.json.
     log_path = STATE / "log.json"
-    history = json.loads(log_path.read_text()) if log_path.exists() else {}
+    history = (json.loads(log_path.read_text(encoding="utf-8"))
+               if log_path.exists() else {})
     reit_symbol = history.get("reit") or cfg["markets"]["reit"]["default_symbol"]
 
     log("fetching...")
@@ -331,7 +347,7 @@ def main() -> int:
 
     payload = {
         "generated_at": dt.datetime.now(CT).isoformat(),
-        "date_label": dt.datetime.now(CT).strftime("%A, %B %-d, %Y"),
+        "date_label": day_label(dt.datetime.now(CT)),
         "reit_symbol": reit_symbol,
         "markets": markets,
         "reo_events": reo_events,
@@ -344,7 +360,7 @@ def main() -> int:
         },
     }
 
-    Path(args.out).write_text(json.dumps(payload, indent=2))
+    Path(args.out).write_text(json.dumps(payload, indent=2), encoding="utf-8")
     s = payload["stats"]
     print(f"Collected {s['total_items']} items from {s['feeds_ok']}/{len(feeds)} feeds, "
           f"{s['reo_events']} REO events -> {args.out}")
