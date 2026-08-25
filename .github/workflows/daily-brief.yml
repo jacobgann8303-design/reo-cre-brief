@@ -3,9 +3,13 @@ name: Daily CRE Brief
 # Runs in GitHub's cloud, not on your laptop. Your machine can be closed.
 on:
   schedule:
-    # GitHub cron is always UTC. 11:30 UTC = 6:30 AM CDT / 5:30 AM CST.
+    # GitHub cron is always UTC. 11:37 UTC = 6:37 AM CDT / 5:37 AM CST.
     # Weekdays only — markets are closed on weekends and there's nothing to say.
-    - cron: "30 11 * * 1-5"
+    #
+    # Deliberately an odd minute. GitHub delays or silently drops scheduled runs
+    # under load, and the top and half of the hour are the most contested slots
+    # on the platform — :30 missed entirely on 2026-08-25. Keep this off :00/:30.
+    - cron: "37 11 * * 1-5"
   workflow_dispatch:        # the "Run workflow" button, for testing
 
 permissions:

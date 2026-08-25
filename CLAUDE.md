@@ -75,9 +75,13 @@ that crashed at 6:30 AM is not. Keep the try/except boundaries around every netw
 
 ## Common tasks
 
-**Change the send time** — edit the cron in the workflow. GitHub cron is UTC. `30 11 * * 1-5` is
-6:30 AM CDT. In winter (CST) the same line fires at 5:30 AM, so shift to `30 12` around November if
+**Change the send time** — edit the cron in the workflow. GitHub cron is UTC. `37 11 * * 1-5` is
+6:37 AM CDT. In winter (CST) the same line fires at 5:37 AM, so shift to `37 12` around November if
 that matters.
+
+Keep the minute odd. GitHub delays or silently drops scheduled runs under load, and `:00`/`:30` are
+the worst slots — the original `30 11` missed entirely on 2026-08-25. Don't "tidy" it back to a
+round number.
 
 **Change the student's REIT** — set `"reit": "TICKER"` in `state/log.json`. The collector reads it
 from there.

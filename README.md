@@ -187,8 +187,13 @@ a network issue; `Generate brief` means the API key.
 **Feeds failing.** Run `python collect/gather.py --verbose` locally — it prints ok/FAIL per feed.
 Publishers change feed URLs occasionally.
 
-**Wrong time in winter.** GitHub cron is UTC and doesn't observe daylight saving. `30 11` is 6:30 AM
-CDT but 5:30 AM CST. Change to `30 12` in November.
+**Wrong time in winter.** GitHub cron is UTC and doesn't observe daylight saving. `37 11` is 6:37 AM
+CDT but 5:37 AM CST. Change to `37 12` in November.
+
+**It didn't run at all.** GitHub delays and sometimes silently drops scheduled runs under load —
+this is expected behaviour, not a broken setup. Keep the cron on an odd minute, never `:00` or
+`:30`, which are the most contested slots. When one is missed, Actions → **Run workflow** fires it
+by hand; the brief is identical either way.
 
 **Workflow stopped after 60 days.** GitHub disables scheduled workflows on repos with no activity.
 Push any commit to re-enable.
