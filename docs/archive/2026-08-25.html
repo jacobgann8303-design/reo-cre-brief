@@ -31,6 +31,16 @@ a{color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(255,176,0
 overflow-wrap:anywhere}
 strong{color:#fff;font-weight:500}
 code{font-family:'JetBrains Mono',monospace;font-size:.85em;background:var(--slab);padding:.1em .35em}
+details{background:var(--slab);border:1px solid var(--rule);border-left:2px solid var(--cyan);
+margin:.2rem 0 1.1rem;padding:.15rem .95rem}
+details summary{font-family:'JetBrains Mono',monospace;font-size:.66rem;letter-spacing:.13em;
+text-transform:uppercase;color:var(--cyan);cursor:pointer;padding:.7rem 0;list-style:none;
+user-select:none}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:" ▸";display:inline-block;transition:transform .15s}
+details[open] summary::after{transform:rotate(90deg)}
+details[open] summary{border-bottom:1px solid var(--rule);margin-bottom:.6rem}
+details p{margin:0 0 .8rem}
 footer{margin-top:3rem;border-top:1px solid var(--rule);padding-top:1rem;
 font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.1em;
 text-transform:uppercase;color:var(--dim);line-height:1.9}
@@ -41,44 +51,49 @@ footer a{color:var(--dim);border:0}
 <h1>THE<br>TAPE<span>.</span></h1>
 </header>
 <h2>The numbers</h2>
-<p>The 10-year Treasury yield sits at <strong>4.74%</strong>, up <strong>5 basis points</strong> from 4.69% the day before — a basis point is one one-hundredth of a percentage point, so this is a small but meaningful move up. The S&amp;P 500 closed at <strong>7,652.86</strong>, down <strong>0.28%</strong>. Mid-America Apartment Communities (MAA), the apartment REIT you'll track in REO, closed at <strong>$133.16</strong>, up <strong>1.56%</strong> — a rare green day when the broader market was red.</p>
+<p>The 10-year Treasury sits at <strong>4.74%</strong> as of August 21 — unchanged from where it was when you read Brief #1, meaning the borrowing cost environment you learned about last time hasn't shifted. The S&amp;P 500 closed at <strong>7,652.86</strong> on August 24, down 0.28% from the prior session. MAA — the apartment REIT (Real Estate Investment Trust, meaning a company that owns income-producing properties and trades on a stock exchange like a regular stock) you're tracking — closed at <strong>$133.16</strong>, up 1.56% on the day, a notable move for a single session.</p>
 <p>---</p>
 <h2>Headlines</h2>
 <ul>
-<li><strong>Yields aren't coming down soon.</strong> Prediction market traders are skeptical Treasury Secretary Bessent can push the 10-year lower, with speculators betting yields end 2026 even higher than today's 4.74%. [CNBC]</li>
-<li><strong>Texas industrial is booming.</strong> Dallas-Fort Worth and Houston led the entire country in industrial space delivered in the first half of 2026. [CRE Daily]</li>
-<li><strong>Tariffs are making construction more expensive.</strong> Trump's 50% tariffs on Canadian imports are driving up costs for cement, plywood, and other core building materials. [Bisnow]</li>
-<li><strong>NYC housing starts collapsed.</strong> New development filings in New York City fell 52%, with developers moving toward smaller projects after a key tax incentive program expired. [Bisnow]</li>
-<li><strong>A $1.3 billion office loan is heading to foreclosure.</strong> Wells Fargo is moving to foreclose on Workspace Property Trust's portfolio, a signal of continued stress in suburban office. [Bisnow / The Business Journals]</li>
+<li><strong>Tariffs on Canadian materials are pushing construction costs higher</strong>, with Trump's 50% levy on Canadian imports raising prices for cement, plywood, and other building supplies that developers depend on. [Bisnow]</li>
+<li><strong>Dallas-Fort Worth and Houston led the country in industrial space delivered in the first half of 2026</strong>, making Texas the center of gravity for warehouse and distribution construction nationally. [CRE Daily]</li>
+<li><strong>Fannie Mae executive cuts are rattling multifamily investors</strong>, because Fannie Mae is one of the main government-backed agencies that guarantees loans on apartment buildings — fewer staff there means slower loan approvals and more uncertainty for borrowers. [CRE Daily]</li>
+<li><strong>Billions in office loans that are currently performing — meaning borrowers are still making payments — are approaching refinancing deadlines</strong>, and the question is whether lenders will renew them at today's higher rates or force sales. [GlobeSt]</li>
+<li><strong>A $250 million CMBS loan is being eyed for a Dallas office asset</strong> — CMBS stands for Commercial Mortgage-Backed Securities, which are loans on commercial properties that get bundled together and sold to investors, and a loan this size on a Dallas office building is worth watching given how stressed that property type has been. [CommercialSearch]</li>
 </ul>
 <p>---</p>
 <h2>The one read</h2>
 <p><strong>Trepp Chief Economist's Weekly Watch – August 24, 2026</strong></p>
-<p><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxOejVpUlFoakJPUTV6Q0xLbUZVbElqRmdkZ3BpVGsyS1FwbTZpNTBSeURjQ19aQlU1VVBwbTRLaTNnTzhWSjgyeGhqcm9hNnljcnpOQzJHQ0lBeVFNOEtNQi1xaVh5ZVhmTTVnT3FxMEFETElsVjY1NXlRMEZ5aVFpb3hvSi1lOWw2X1lobWh6MjdnWnl1ZEg0VnJ2dGdmQ0JMZC1ZczBGOEFVdTduSkFhOVg1c3c3eGNaWlNUWk5raw?oc=5">Read it here</a></p>
-<p>Trepp sits at the intersection of CRE debt and capital markets — their economists watch the exact numbers (Treasury yields, consumer spending, business investment) that determine whether your deals get financed and at what cost. Reading their weekly watch trains you to connect macroeconomic data to CRE outcomes, which is the core analytical skill professionals will test you on in any serious conversation.</p>
+<p><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxOejVpUlFoakJPUTV6Q0xLbUZVbElqRmdkZ3BpVGsyS1FwbTZpNTBSeURjQ19aQlU1VVBwbTRLaTNnTzhWSjgyeGhqcm9hNnljcnpOQzJHQ0lBeVFNOEtNQi1xaVh5ZVhmTTVnT3FxMEFETElsVjY1NXlRMEZ5aVFpb3hvSi1lOWw2X1lobWh6MjdnWnl1ZEg0VnJ2dGdmQ0JMZC1ZczBGOEFVdTduSkFhOVg1c3c3eGNaWlNUWk5raw">Read it here</a></p>
+<p>Trepp is one of the most respected data firms in commercial real estate lending, so when their chief economist writes about Treasury yields and where the economy is cracking, it's not opinion — it's the same analysis that lenders and investors are reading. This connects directly to what you learned in Brief #1 about cap rates and what you're learning today about NOI: the macro picture (consumer spending, business investment, yield direction) is exactly what determines whether a property's income is worth more or less tomorrow.</p>
 <p>---</p>
 <h2>REO watch</h2>
-<p>Nothing in the next 7 days carries a hard deadline, but two events are close enough to calendar now:</p>
-<p><strong>Mon Aug 31, 12:00 PM — BRIC Lunch &amp; Learn @ NW 112</strong> (6 days away). Free lunch, industry speakers, and a room full of people you want to know before recruiting season.</p>
-<p><strong>Tue Sep 1, 5:30 PM — REO 101 @ RCOB NW112</strong> (7 days away). This is the orientation meeting. If you're reading this brief, you should be in that room.</p>
-<p>⚠️ <strong>Mark Sep 18 now:</strong> REO Resume Book submissions are due at <a href="https://ttureo.com">ttureo.com</a>. That's 24 days out and recruiters use this book. Missing it means missing exposure to firms before fall interviews.</p>
+<p><strong>Tonight — Tuesday August 25, 4:30 PM:</strong> Raider Welcome Organization Fair at the SUB Ballroom. This is today. If you want to get REO on your radar as a first-year or connect with members before the formal meetings start, this is the lowest-friction way to do it. Show up, find the REO table, introduce yourself.</p>
+<p><strong>Next Tuesday, September 1 — two events back to back:</strong> BCRE Student Meeting at 5:00 PM in RCOB NW112, immediately followed by REO 101 at 5:30 PM in the same room. REO 101 is the formal introduction to the organization — if you're reading these briefs, that meeting is for you.</p>
+<p><strong>Deadline — Friday September 18, 5:00 PM:</strong> REO Resume Book submissions due at ttureo.com. The resume book goes to industry professionals and is one of the main ways REO members get seen by employers. Missing it means waiting a full cycle. Put it in your calendar now.</p>
 <p>---</p>
-<h2>Today's concept: Cap rate</h2>
-<p>The <strong>capitalization rate</strong> (cap rate) answers one question: *what return does a property produce relative to its price, ignoring debt?*</p>
-<p>The formula is simple:</p>
-<p>&gt; <strong>Cap Rate = Net Operating Income ÷ Property Value</strong></p>
-<p>Net Operating Income (NOI) is rent collected minus operating expenses — taxes, insurance, maintenance — but *before* any mortgage payment.</p>
-<p>Here's why today's 10-year at <strong>4.74%</strong> matters. Cap rates and Treasury yields move together because investors compare them constantly. If a risk-free Treasury pays 4.74%, a Houston industrial property better offer a higher return to justify the extra risk of owning real estate — illiquidity, tenant problems, roof replacements.</p>
-<p>Look at today's Texas headline: DFW and Houston led national industrial deliveries. High supply can push rents down, which compresses NOI, which *lowers* your cap rate at a given price — or forces the price down to restore it.</p>
-<p>If a warehouse generates $500,000 in NOI and sells for $8,333,000, the cap rate is exactly 6.0%. A buyer paying $10,000,000 for the same income gets only a 5.0% cap rate — and with Treasuries at 4.74%, that spread of just 26 basis points is thin. That thinness is why lending is tight right now.</p>
+<h2>Today's concept: NOI</h2>
+<p>### 1. The everyday version</p>
+<p>Imagine you own a vending machine. It takes in $500 a month from people buying snacks. But you pay $80 a month to restock it, $20 to have someone service it, and $50 for the space where it sits. Your actual take-home from running that machine — before you think about any loan you took out to buy it — is $350. That $350 is what the machine actually produces. You haven't paid yourself back for buying the machine yet. You're just counting what the operation earns.</p>
+<p>### 2. The real version</p>
+<p>In commercial real estate, that same idea has a name: <strong>Net Operating Income</strong>, or NOI. It's the money a property brings in from tenants — called <strong>gross income</strong>, meaning total rent collected — minus the costs of running the property day to day. Those operating costs include things like property taxes, insurance, maintenance, and property management fees. What is *not* included: any mortgage payment (called <strong>debt service</strong> — the principal and interest you pay a lender). NOI is the income the property produces before the bank gets its cut.</p>
+<p>Here's why today's number matters. The Dallas office building in the headlines is seeking a <strong>$250 million CMBS loan</strong>. To underwrite that loan — meaning to evaluate whether it's safe to make — a lender's first question is: what is the NOI on this building? Say the building produces $17.5 million in NOI per year.</p>
+<p>$17,500,000 ÷ $250,000,000 = <strong>7.0% cap rate</strong></p>
+<p>Cap rate, as you learned last time, is NOI divided by property value. The lender uses NOI to decide if the property earns enough to cover the loan payments — especially now, with the 10-year Treasury at <strong>4.74%</strong> and borrowing costs elevated.</p>
+<p>### 3. Why a professional cares</p>
+<p>If NOI drops — say a major tenant moves out and rent falls — the property is suddenly worth less and may not cover its debt payments, which is exactly the stress playing out in the office headlines right now. Conversely, if a landlord raises rents or cuts expenses and NOI rises, the property is worth more even if nothing else changes. NOI is the single number that connects a building's day-to-day operations to its market value and its ability to carry debt.</p>
+<p>---</p>
+<h2>Check yourself</h2>
+<p>A small apartment complex collects <strong>$240,000 per year</strong> in rent. The owner pays <strong>$30,000</strong> in property taxes, <strong>$12,000</strong> in insurance, <strong>$18,000</strong> in maintenance, and <strong>$720 per month</strong> on a mortgage. What is the NOI?</p>
+<p>Work it out before you look.</p>
+<details><summary>Show answer</summary><p>NOI is $180,000. You add up the operating expenses — $30,000 + $12,000 + $18,000 = $60,000 — and subtract them from the $240,000 gross income: $240,000 − $60,000 = $180,000. The mortgage payment ($720/month = $8,640/year) is debt service, not an operating expense, so it does not get subtracted when calculating NOI.</p></details>
 <p>---</p>
 <h2>Your move</h2>
-<p>Pull up <a href="https://ttureo.com">ttureo.com</a> right now and find where the Resume Book submission form lives — don't fill it out yet, just locate it. You have 24 days, but people who know the process before the deadline are never the ones scrambling. While you're there, read whatever REO has on upcoming events and check if anything conflicts with your class schedule before REO 101 next Tuesday.</p>
-<p>---</p>
+<p>Before you go to the Organization Fair tonight, write down one question to ask an REO member — something specific, like "what property type are you most interested in and why?" Asking a real question is how you get remembered. Generic small talk isn't. You have the concept now: if someone mentions cap rates or NOI tonight, you're not lost.</p>
 <footer>
-132 stories from 17 sources &middot;
-13 REO events &middot; concept: Cap rate<br>
-Built 2026-08-25 00:20 CT &middot;
+131 stories from 17 sources &middot;
+13 REO events &middot; concept: NOI<br>
+Built 2026-08-25 00:49 CT &middot;
 <a href="archive/">archive</a>
 </footer>
 </div></body></html>

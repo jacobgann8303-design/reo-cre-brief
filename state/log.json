@@ -1,19 +1,35 @@
 {
   "reit": "MAA",
-  "concept_index": 1,
-  "streak": 1,
+  "concept_index": 2,
+  "streak": 2,
   "entries": [
     {
       "date": "2026-08-25",
       "treasury_10y": 4.74,
       "concept": "Cap rate",
       "open_thread": "why does the spread between cap rates and the 10-year matter to lenders and what happens when it collapses"
+    },
+    {
+      "date": "2026-08-25",
+      "treasury_10y": 4.74,
+      "concept": "NOI",
+      "reviewed": [],
+      "open_thread": "how does a drop in NOI flow through to loan distress and what options does a lender have when it happens"
     }
   ],
   "last_entry": {
     "date": "2026-08-25",
     "treasury_10y": 4.74,
-    "concept": "Cap rate",
-    "open_thread": "why does the spread between cap rates and the 10-year matter to lenders and what happens when it collapses"
-  }
+    "concept": "NOI",
+    "reviewed": [],
+    "open_thread": "how does a drop in NOI flow through to loan distress and what options does a lender have when it happens"
+  },
+  "schedule": [
+    {
+      "concept": "NOI",
+      "taught_at": 2,
+      "due_at": 3,
+      "stage": 0
+    }
+  ]
 }
