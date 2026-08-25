@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 2,
-  "streak": 2,
+  "concept_index": 3,
+  "streak": 3,
   "entries": [
     {
       "date": "2026-08-25",
@@ -15,26 +15,45 @@
       "concept": "NOI",
       "reviewed": [],
       "open_thread": "how does a drop in NOI flow through to loan distress and what options does a lender have when it happens"
+    },
+    {
+      "date": "2026-08-25",
+      "treasury_10y": 4.74,
+      "concept": "Price per square foot",
+      "reviewed": [
+        "Cap rate",
+        "NOI"
+      ],
+      "open_thread": "how does price per square foot interact with cap rate \u2014 can a building be cheap on price/sf but expensive on cap rate at the same time, and what would that tell you?"
     }
   ],
   "last_entry": {
     "date": "2026-08-25",
     "treasury_10y": 4.74,
-    "concept": "NOI",
-    "reviewed": [],
-    "open_thread": "how does a drop in NOI flow through to loan distress and what options does a lender have when it happens"
+    "concept": "Price per square foot",
+    "reviewed": [
+      "Cap rate",
+      "NOI"
+    ],
+    "open_thread": "how does price per square foot interact with cap rate \u2014 can a building be cheap on price/sf but expensive on cap rate at the same time, and what would that tell you?"
   },
   "schedule": [
     {
       "concept": "Cap rate",
       "taught_at": 1,
-      "due_at": 3,
-      "stage": 0
+      "due_at": 7,
+      "stage": 1
     },
     {
       "concept": "NOI",
       "taught_at": 2,
-      "due_at": 3,
+      "due_at": 7,
+      "stage": 1
+    },
+    {
+      "concept": "Price per square foot",
+      "taught_at": 3,
+      "due_at": 4,
       "stage": 0
     }
   ]
