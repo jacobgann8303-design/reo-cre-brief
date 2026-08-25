@@ -26,6 +26,12 @@
   },
   "schedule": [
     {
+      "concept": "Cap rate",
+      "taught_at": 1,
+      "due_at": 3,
+      "stage": 0
+    },
+    {
       "concept": "NOI",
       "taught_at": 2,
       "due_at": 3,

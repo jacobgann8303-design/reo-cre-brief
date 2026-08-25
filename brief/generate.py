@@ -302,7 +302,11 @@ def render_html(markdown_text: str, raw: dict, concept: str) -> str:
     for line in lines:
         line = line.rstrip()
         answer = ANSWER_RE.match(line)
-        if line.startswith("## "):
+        if line.startswith("### "):
+            if in_list:
+                body.append("</ul>"); in_list = False
+            body.append(f"<h3>{esc(line[4:])}</h3>")
+        elif line.startswith("## "):
             if in_list:
                 body.append("</ul>"); in_list = False
             body.append(f"<h2>{esc(line[3:])}</h2>")
@@ -352,6 +356,8 @@ h1 span{{color:var(--amber)}}
 h2{{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
 color:var(--cyan);margin:2.2rem 0 .7rem;padding-top:1.1rem;border-top:1px solid var(--rule);font-weight:700}}
 h2:first-of-type{{border-top:0}}
+h3{{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.11em;
+text-transform:uppercase;color:var(--dim);margin:1.5rem 0 .5rem;font-weight:700}}
 p{{margin:0 0 .9rem}}
 ul{{margin:0 0 .9rem;padding-left:1.1rem}}
 li{{margin-bottom:.55rem}}
