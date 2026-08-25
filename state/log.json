@@ -1,6 +1,19 @@
 {
   "reit": "MAA",
-  "concept_index": 0,
-  "streak": 0,
-  "entries": []
+  "concept_index": 1,
+  "streak": 1,
+  "entries": [
+    {
+      "date": "2026-08-25",
+      "treasury_10y": 4.74,
+      "concept": "Cap rate",
+      "open_thread": "why does the spread between cap rates and the 10-year matter to lenders and what happens when it collapses"
+    }
+  ],
+  "last_entry": {
+    "date": "2026-08-25",
+    "treasury_10y": 4.74,
+    "concept": "Cap rate",
+    "open_thread": "why does the spread between cap rates and the 10-year matter to lenders and what happens when it collapses"
+  }
 }
