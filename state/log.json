@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 3,
-  "streak": 3,
+  "concept_index": 4,
+  "streak": 4,
   "entries": [
     {
       "date": "2026-08-25",
@@ -25,17 +25,25 @@
         "NOI"
       ],
       "open_thread": "how does price per square foot interact with cap rate \u2014 can a building be cheap on price/sf but expensive on cap rate at the same time, and what would that tell you?"
+    },
+    {
+      "date": "2026-08-26",
+      "treasury_10y": 4.7,
+      "concept": "The four asset classes",
+      "reviewed": [
+        "Price per square foot"
+      ],
+      "open_thread": "which asset class is most sensitive to the 10-year Treasury rate right now, and why does the answer differ by class?"
     }
   ],
   "last_entry": {
-    "date": "2026-08-25",
-    "treasury_10y": 4.74,
-    "concept": "Price per square foot",
+    "date": "2026-08-26",
+    "treasury_10y": 4.7,
+    "concept": "The four asset classes",
     "reviewed": [
-      "Cap rate",
-      "NOI"
+      "Price per square foot"
     ],
-    "open_thread": "how does price per square foot interact with cap rate \u2014 can a building be cheap on price/sf but expensive on cap rate at the same time, and what would that tell you?"
+    "open_thread": "which asset class is most sensitive to the 10-year Treasury rate right now, and why does the answer differ by class?"
   },
   "schedule": [
     {
@@ -53,7 +61,13 @@
     {
       "concept": "Price per square foot",
       "taught_at": 3,
-      "due_at": 4,
+      "due_at": 8,
+      "stage": 1
+    },
+    {
+      "concept": "The four asset classes",
+      "taught_at": 4,
+      "due_at": 5,
       "stage": 0
     }
   ]
