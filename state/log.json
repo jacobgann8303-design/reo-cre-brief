@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 4,
-  "streak": 4,
+  "concept_index": 5,
+  "streak": 5,
   "entries": [
     {
       "date": "2026-08-25",
@@ -34,16 +34,25 @@
         "Price per square foot"
       ],
       "open_thread": "which asset class is most sensitive to the 10-year Treasury rate right now, and why does the answer differ by class?"
+    },
+    {
+      "date": "2026-08-28",
+      "treasury_10y": 4.67,
+      "concept": "The 10-year Treasury and cap rate spread",
+      "reviewed": [
+        "The four asset classes"
+      ],
+      "open_thread": "If the Fed hikes rates in September and the 10-year rises further, which asset class would see its cap rate spread compress the most \u2014 and would that force prices down or could rents rise fast enough to compensate?"
     }
   ],
   "last_entry": {
-    "date": "2026-08-26",
-    "treasury_10y": 4.7,
-    "concept": "The four asset classes",
+    "date": "2026-08-28",
+    "treasury_10y": 4.67,
+    "concept": "The 10-year Treasury and cap rate spread",
     "reviewed": [
-      "Price per square foot"
+      "The four asset classes"
     ],
-    "open_thread": "which asset class is most sensitive to the 10-year Treasury rate right now, and why does the answer differ by class?"
+    "open_thread": "If the Fed hikes rates in September and the 10-year rises further, which asset class would see its cap rate spread compress the most \u2014 and would that force prices down or could rents rise fast enough to compensate?"
   },
   "schedule": [
     {
@@ -67,7 +76,13 @@
     {
       "concept": "The four asset classes",
       "taught_at": 4,
-      "due_at": 5,
+      "due_at": 9,
+      "stage": 1
+    },
+    {
+      "concept": "The 10-year Treasury and cap rate spread",
+      "taught_at": 5,
+      "due_at": 6,
       "stage": 0
     }
   ]
