@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 5,
-  "streak": 5,
+  "concept_index": 6,
+  "streak": 6,
   "entries": [
     {
       "date": "2026-08-25",
@@ -43,16 +43,25 @@
         "The four asset classes"
       ],
       "open_thread": "If the Fed hikes rates in September and the 10-year rises further, which asset class would see its cap rate spread compress the most \u2014 and would that force prices down or could rents rise fast enough to compensate?"
+    },
+    {
+      "date": "2026-08-31",
+      "treasury_10y": 4.67,
+      "concept": "Basis point",
+      "reviewed": [
+        "The 10-year Treasury and cap rate spread"
+      ],
+      "open_thread": "If rents are rising but REITs like MAA are falling, how much does a rate hike have to move cap rates before rising rents can no longer compensate \u2014 and what's the math that answers that?"
     }
   ],
   "last_entry": {
-    "date": "2026-08-28",
+    "date": "2026-08-31",
     "treasury_10y": 4.67,
-    "concept": "The 10-year Treasury and cap rate spread",
+    "concept": "Basis point",
     "reviewed": [
-      "The four asset classes"
+      "The 10-year Treasury and cap rate spread"
     ],
-    "open_thread": "If the Fed hikes rates in September and the 10-year rises further, which asset class would see its cap rate spread compress the most \u2014 and would that force prices down or could rents rise fast enough to compensate?"
+    "open_thread": "If rents are rising but REITs like MAA are falling, how much does a rate hike have to move cap rates before rising rents can no longer compensate \u2014 and what's the math that answers that?"
   },
   "schedule": [
     {
@@ -82,7 +91,13 @@
     {
       "concept": "The 10-year Treasury and cap rate spread",
       "taught_at": 5,
-      "due_at": 6,
+      "due_at": 10,
+      "stage": 1
+    },
+    {
+      "concept": "Basis point",
+      "taught_at": 6,
+      "due_at": 7,
       "stage": 0
     }
   ]
