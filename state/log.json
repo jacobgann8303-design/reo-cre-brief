@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 6,
-  "streak": 6,
+  "concept_index": 7,
+  "streak": 7,
   "entries": [
     {
       "date": "2026-08-25",
@@ -52,29 +52,40 @@
         "The 10-year Treasury and cap rate spread"
       ],
       "open_thread": "If rents are rising but REITs like MAA are falling, how much does a rate hike have to move cap rates before rising rents can no longer compensate \u2014 and what's the math that answers that?"
+    },
+    {
+      "date": "2026-09-01",
+      "treasury_10y": 4.73,
+      "concept": "Vacancy vs. availability",
+      "reviewed": [
+        "Cap rate",
+        "NOI"
+      ],
+      "open_thread": "If availability is rising while vacancy holds steady \u2014 as may be happening in lab space after that 18% rent drop \u2014 at what point does rising availability actually show up in the vacancy rate, and what does the lag between the two mean for how quickly a landlord should cut asking rents?"
     }
   ],
   "last_entry": {
-    "date": "2026-08-31",
-    "treasury_10y": 4.67,
-    "concept": "Basis point",
+    "date": "2026-09-01",
+    "treasury_10y": 4.73,
+    "concept": "Vacancy vs. availability",
     "reviewed": [
-      "The 10-year Treasury and cap rate spread"
+      "Cap rate",
+      "NOI"
     ],
-    "open_thread": "If rents are rising but REITs like MAA are falling, how much does a rate hike have to move cap rates before rising rents can no longer compensate \u2014 and what's the math that answers that?"
+    "open_thread": "If availability is rising while vacancy holds steady \u2014 as may be happening in lab space after that 18% rent drop \u2014 at what point does rising availability actually show up in the vacancy rate, and what does the lag between the two mean for how quickly a landlord should cut asking rents?"
   },
   "schedule": [
     {
       "concept": "Cap rate",
       "taught_at": 1,
-      "due_at": 7,
-      "stage": 1
+      "due_at": 21,
+      "stage": 2
     },
     {
       "concept": "NOI",
       "taught_at": 2,
-      "due_at": 7,
-      "stage": 1
+      "due_at": 21,
+      "stage": 2
     },
     {
       "concept": "Price per square foot",
@@ -98,6 +109,12 @@
       "concept": "Basis point",
       "taught_at": 6,
       "due_at": 7,
+      "stage": 0
+    },
+    {
+      "concept": "Vacancy vs. availability",
+      "taught_at": 7,
+      "due_at": 8,
       "stage": 0
     }
   ]
