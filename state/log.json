@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 7,
-  "streak": 7,
+  "concept_index": 8,
+  "streak": 8,
   "entries": [
     {
       "date": "2026-08-25",
@@ -62,17 +62,27 @@
         "NOI"
       ],
       "open_thread": "If availability is rising while vacancy holds steady \u2014 as may be happening in lab space after that 18% rent drop \u2014 at what point does rising availability actually show up in the vacancy rate, and what does the lag between the two mean for how quickly a landlord should cut asking rents?"
+    },
+    {
+      "date": "2026-09-02",
+      "treasury_10y": 4.75,
+      "concept": "Absorption",
+      "reviewed": [
+        "Basis point",
+        "Price per square foot"
+      ],
+      "open_thread": "If net absorption turns negative in a market \u2014 more space given back than leased \u2014 how long does it typically take before landlords actually cut asking rents, and what stops them from doing it immediately?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-01",
-    "treasury_10y": 4.73,
-    "concept": "Vacancy vs. availability",
+    "date": "2026-09-02",
+    "treasury_10y": 4.75,
+    "concept": "Absorption",
     "reviewed": [
-      "Cap rate",
-      "NOI"
+      "Basis point",
+      "Price per square foot"
     ],
-    "open_thread": "If availability is rising while vacancy holds steady \u2014 as may be happening in lab space after that 18% rent drop \u2014 at what point does rising availability actually show up in the vacancy rate, and what does the lag between the two mean for how quickly a landlord should cut asking rents?"
+    "open_thread": "If net absorption turns negative in a market \u2014 more space given back than leased \u2014 how long does it typically take before landlords actually cut asking rents, and what stops them from doing it immediately?"
   },
   "schedule": [
     {
@@ -90,8 +100,8 @@
     {
       "concept": "Price per square foot",
       "taught_at": 3,
-      "due_at": 8,
-      "stage": 1
+      "due_at": 22,
+      "stage": 2
     },
     {
       "concept": "The four asset classes",
@@ -108,13 +118,19 @@
     {
       "concept": "Basis point",
       "taught_at": 6,
-      "due_at": 7,
-      "stage": 0
+      "due_at": 12,
+      "stage": 1
     },
     {
       "concept": "Vacancy vs. availability",
       "taught_at": 7,
       "due_at": 8,
+      "stage": 0
+    },
+    {
+      "concept": "Absorption",
+      "taught_at": 8,
+      "due_at": 9,
       "stage": 0
     }
   ]
