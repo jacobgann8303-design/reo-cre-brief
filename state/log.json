@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 8,
-  "streak": 8,
+  "concept_index": 9,
+  "streak": 9,
   "entries": [
     {
       "date": "2026-08-25",
@@ -72,17 +72,27 @@
         "Price per square foot"
       ],
       "open_thread": "If net absorption turns negative in a market \u2014 more space given back than leased \u2014 how long does it typically take before landlords actually cut asking rents, and what stops them from doing it immediately?"
+    },
+    {
+      "date": "2026-09-03",
+      "treasury_10y": 4.79,
+      "concept": "Class A / B / C",
+      "reviewed": [
+        "Vacancy vs. availability",
+        "The four asset classes"
+      ],
+      "open_thread": "If a Class B building gets renovated to Class A standards, does it automatically reprice at Class A cap rates \u2014 or does location set a ceiling that renovations can't overcome?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-02",
-    "treasury_10y": 4.75,
-    "concept": "Absorption",
+    "date": "2026-09-03",
+    "treasury_10y": 4.79,
+    "concept": "Class A / B / C",
     "reviewed": [
-      "Basis point",
-      "Price per square foot"
+      "Vacancy vs. availability",
+      "The four asset classes"
     ],
-    "open_thread": "If net absorption turns negative in a market \u2014 more space given back than leased \u2014 how long does it typically take before landlords actually cut asking rents, and what stops them from doing it immediately?"
+    "open_thread": "If a Class B building gets renovated to Class A standards, does it automatically reprice at Class A cap rates \u2014 or does location set a ceiling that renovations can't overcome?"
   },
   "schedule": [
     {
@@ -106,8 +116,8 @@
     {
       "concept": "The four asset classes",
       "taught_at": 4,
-      "due_at": 9,
-      "stage": 1
+      "due_at": 23,
+      "stage": 2
     },
     {
       "concept": "The 10-year Treasury and cap rate spread",
@@ -124,13 +134,19 @@
     {
       "concept": "Vacancy vs. availability",
       "taught_at": 7,
-      "due_at": 8,
-      "stage": 0
+      "due_at": 13,
+      "stage": 1
     },
     {
       "concept": "Absorption",
       "taught_at": 8,
       "due_at": 9,
+      "stage": 0
+    },
+    {
+      "concept": "Class A / B / C",
+      "taught_at": 9,
+      "due_at": 10,
       "stage": 0
     }
   ]
