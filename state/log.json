@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 9,
-  "streak": 9,
+  "concept_index": 10,
+  "streak": 10,
   "entries": [
     {
       "date": "2026-08-25",
@@ -82,17 +82,27 @@
         "The four asset classes"
       ],
       "open_thread": "If a Class B building gets renovated to Class A standards, does it automatically reprice at Class A cap rates \u2014 or does location set a ceiling that renovations can't overcome?"
+    },
+    {
+      "date": "2026-09-04",
+      "treasury_10y": 4.79,
+      "concept": "Leasable vs. rentable vs. usable square feet",
+      "reviewed": [
+        "Absorption",
+        "The 10-year Treasury and cap rate spread"
+      ],
+      "open_thread": "If two buildings have identical usable square feet and the same rent per rentable foot, but different load factors, does the tenant with the higher load factor always lose \u2014 or are there cases where paying for more common area is actually worth it?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "treasury_10y": 4.79,
-    "concept": "Class A / B / C",
+    "concept": "Leasable vs. rentable vs. usable square feet",
     "reviewed": [
-      "Vacancy vs. availability",
-      "The four asset classes"
+      "Absorption",
+      "The 10-year Treasury and cap rate spread"
     ],
-    "open_thread": "If a Class B building gets renovated to Class A standards, does it automatically reprice at Class A cap rates \u2014 or does location set a ceiling that renovations can't overcome?"
+    "open_thread": "If two buildings have identical usable square feet and the same rent per rentable foot, but different load factors, does the tenant with the higher load factor always lose \u2014 or are there cases where paying for more common area is actually worth it?"
   },
   "schedule": [
     {
@@ -122,8 +132,8 @@
     {
       "concept": "The 10-year Treasury and cap rate spread",
       "taught_at": 5,
-      "due_at": 10,
-      "stage": 1
+      "due_at": 24,
+      "stage": 2
     },
     {
       "concept": "Basis point",
@@ -140,13 +150,19 @@
     {
       "concept": "Absorption",
       "taught_at": 8,
-      "due_at": 9,
-      "stage": 0
+      "due_at": 14,
+      "stage": 1
     },
     {
       "concept": "Class A / B / C",
       "taught_at": 9,
       "due_at": 10,
+      "stage": 0
+    },
+    {
+      "concept": "Leasable vs. rentable vs. usable square feet",
+      "taught_at": 10,
+      "due_at": 11,
       "stage": 0
     }
   ]
