@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 10,
-  "streak": 10,
+  "concept_index": 11,
+  "streak": 11,
   "entries": [
     {
       "date": "2026-08-25",
@@ -92,17 +92,27 @@
         "The 10-year Treasury and cap rate spread"
       ],
       "open_thread": "If two buildings have identical usable square feet and the same rent per rentable foot, but different load factors, does the tenant with the higher load factor always lose \u2014 or are there cases where paying for more common area is actually worth it?"
+    },
+    {
+      "date": "2026-09-07",
+      "treasury_10y": 4.77,
+      "concept": "Debt service coverage ratio",
+      "reviewed": [
+        "Class A / B / C",
+        "Leasable vs. rentable vs. usable square feet"
+      ],
+      "open_thread": "If a property's NOI stays flat but interest rates rise at renewal, at what point does a previously healthy DSCR fall below a lender's minimum \u2014 and who bears that risk first, the borrower or the lender?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-04",
-    "treasury_10y": 4.79,
-    "concept": "Leasable vs. rentable vs. usable square feet",
+    "date": "2026-09-07",
+    "treasury_10y": 4.77,
+    "concept": "Debt service coverage ratio",
     "reviewed": [
-      "Absorption",
-      "The 10-year Treasury and cap rate spread"
+      "Class A / B / C",
+      "Leasable vs. rentable vs. usable square feet"
     ],
-    "open_thread": "If two buildings have identical usable square feet and the same rent per rentable foot, but different load factors, does the tenant with the higher load factor always lose \u2014 or are there cases where paying for more common area is actually worth it?"
+    "open_thread": "If a property's NOI stays flat but interest rates rise at renewal, at what point does a previously healthy DSCR fall below a lender's minimum \u2014 and who bears that risk first, the borrower or the lender?"
   },
   "schedule": [
     {
@@ -156,13 +166,19 @@
     {
       "concept": "Class A / B / C",
       "taught_at": 9,
-      "due_at": 10,
-      "stage": 0
+      "due_at": 15,
+      "stage": 1
     },
     {
       "concept": "Leasable vs. rentable vs. usable square feet",
       "taught_at": 10,
-      "due_at": 11,
+      "due_at": 15,
+      "stage": 1
+    },
+    {
+      "concept": "Debt service coverage ratio",
+      "taught_at": 11,
+      "due_at": 12,
       "stage": 0
     }
   ]
