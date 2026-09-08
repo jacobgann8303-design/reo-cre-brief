@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 11,
-  "streak": 11,
+  "concept_index": 12,
+  "streak": 12,
   "entries": [
     {
       "date": "2026-08-25",
@@ -102,17 +102,27 @@
         "Leasable vs. rentable vs. usable square feet"
       ],
       "open_thread": "If a property's NOI stays flat but interest rates rise at renewal, at what point does a previously healthy DSCR fall below a lender's minimum \u2014 and who bears that risk first, the borrower or the lender?"
+    },
+    {
+      "date": "2026-09-08",
+      "treasury_10y": 4.77,
+      "concept": "Loan-to-value and loan-to-cost",
+      "reviewed": [
+        "Basis point",
+        "Debt service coverage ratio"
+      ],
+      "open_thread": "If LTV limits tighten at the same time rates rise, what has to give \u2014 price, equity contribution, or deal volume \u2014 and which market participants feel it first?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "treasury_10y": 4.77,
-    "concept": "Debt service coverage ratio",
+    "concept": "Loan-to-value and loan-to-cost",
     "reviewed": [
-      "Class A / B / C",
-      "Leasable vs. rentable vs. usable square feet"
+      "Basis point",
+      "Debt service coverage ratio"
     ],
-    "open_thread": "If a property's NOI stays flat but interest rates rise at renewal, at what point does a previously healthy DSCR fall below a lender's minimum \u2014 and who bears that risk first, the borrower or the lender?"
+    "open_thread": "If LTV limits tighten at the same time rates rise, what has to give \u2014 price, equity contribution, or deal volume \u2014 and which market participants feel it first?"
   },
   "schedule": [
     {
@@ -148,8 +158,8 @@
     {
       "concept": "Basis point",
       "taught_at": 6,
-      "due_at": 12,
-      "stage": 1
+      "due_at": 26,
+      "stage": 2
     },
     {
       "concept": "Vacancy vs. availability",
@@ -178,7 +188,13 @@
     {
       "concept": "Debt service coverage ratio",
       "taught_at": 11,
-      "due_at": 12,
+      "due_at": 16,
+      "stage": 1
+    },
+    {
+      "concept": "Loan-to-value and loan-to-cost",
+      "taught_at": 12,
+      "due_at": 13,
       "stage": 0
     }
   ]
