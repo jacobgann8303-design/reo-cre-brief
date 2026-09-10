@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 13,
-  "streak": 13,
+  "concept_index": 14,
+  "streak": 14,
   "entries": [
     {
       "date": "2026-08-25",
@@ -122,17 +122,27 @@
         "Loan-to-value and loan-to-cost"
       ],
       "open_thread": "When the senior debt layer gets more expensive because Treasury rates rise, which layer of the capital stack feels the squeeze first \u2014 and what does that mean for how developers structure deals differently in a high-rate environment?"
+    },
+    {
+      "date": "2026-09-10",
+      "treasury_10y": 4.8,
+      "concept": "Equity waterfall and promote",
+      "reviewed": [
+        "Absorption",
+        "The capital stack"
+      ],
+      "open_thread": "If the preferred return LPs demand keeps rising with Treasury rates, at what point does the promote become too small to be worth the GP's time \u2014 and how do sponsors restructure deals to stay in the game?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-09",
-    "treasury_10y": 4.78,
-    "concept": "The capital stack",
+    "date": "2026-09-10",
+    "treasury_10y": 4.8,
+    "concept": "Equity waterfall and promote",
     "reviewed": [
-      "Vacancy vs. availability",
-      "Loan-to-value and loan-to-cost"
+      "Absorption",
+      "The capital stack"
     ],
-    "open_thread": "When the senior debt layer gets more expensive because Treasury rates rise, which layer of the capital stack feels the squeeze first \u2014 and what does that mean for how developers structure deals differently in a high-rate environment?"
+    "open_thread": "If the preferred return LPs demand keeps rising with Treasury rates, at what point does the promote become too small to be worth the GP's time \u2014 and how do sponsors restructure deals to stay in the game?"
   },
   "schedule": [
     {
@@ -180,8 +190,8 @@
     {
       "concept": "Absorption",
       "taught_at": 8,
-      "due_at": 14,
-      "stage": 1
+      "due_at": 28,
+      "stage": 2
     },
     {
       "concept": "Class A / B / C",
@@ -210,7 +220,13 @@
     {
       "concept": "The capital stack",
       "taught_at": 13,
-      "due_at": 14,
+      "due_at": 18,
+      "stage": 1
+    },
+    {
+      "concept": "Equity waterfall and promote",
+      "taught_at": 14,
+      "due_at": 15,
       "stage": 0
     }
   ]
