@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 14,
-  "streak": 14,
+  "concept_index": 15,
+  "streak": 15,
   "entries": [
     {
       "date": "2026-08-25",
@@ -132,17 +132,27 @@
         "The capital stack"
       ],
       "open_thread": "If the preferred return LPs demand keeps rising with Treasury rates, at what point does the promote become too small to be worth the GP's time \u2014 and how do sponsors restructure deals to stay in the game?"
+    },
+    {
+      "date": "2026-09-11",
+      "treasury_10y": 4.83,
+      "concept": "IRR vs. equity multiple",
+      "reviewed": [
+        "Class A / B / C",
+        "Leasable vs. rentable vs. usable square feet"
+      ],
+      "open_thread": "If two deals have the same IRR but different equity multiples, which should a cash-hungry investor prefer \u2014 and how does the length of the hold period create that tradeoff?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-10",
-    "treasury_10y": 4.8,
-    "concept": "Equity waterfall and promote",
+    "date": "2026-09-11",
+    "treasury_10y": 4.83,
+    "concept": "IRR vs. equity multiple",
     "reviewed": [
-      "Absorption",
-      "The capital stack"
+      "Class A / B / C",
+      "Leasable vs. rentable vs. usable square feet"
     ],
-    "open_thread": "If the preferred return LPs demand keeps rising with Treasury rates, at what point does the promote become too small to be worth the GP's time \u2014 and how do sponsors restructure deals to stay in the game?"
+    "open_thread": "If two deals have the same IRR but different equity multiples, which should a cash-hungry investor prefer \u2014 and how does the length of the hold period create that tradeoff?"
   },
   "schedule": [
     {
@@ -196,14 +206,14 @@
     {
       "concept": "Class A / B / C",
       "taught_at": 9,
-      "due_at": 15,
-      "stage": 1
+      "due_at": 29,
+      "stage": 2
     },
     {
       "concept": "Leasable vs. rentable vs. usable square feet",
       "taught_at": 10,
-      "due_at": 15,
-      "stage": 1
+      "due_at": 29,
+      "stage": 2
     },
     {
       "concept": "Debt service coverage ratio",
@@ -227,6 +237,12 @@
       "concept": "Equity waterfall and promote",
       "taught_at": 14,
       "due_at": 15,
+      "stage": 0
+    },
+    {
+      "concept": "IRR vs. equity multiple",
+      "taught_at": 15,
+      "due_at": 16,
       "stage": 0
     }
   ]
