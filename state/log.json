@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 15,
-  "streak": 15,
+  "concept_index": 16,
+  "streak": 16,
   "entries": [
     {
       "date": "2026-08-25",
@@ -142,17 +142,27 @@
         "Leasable vs. rentable vs. usable square feet"
       ],
       "open_thread": "If two deals have the same IRR but different equity multiples, which should a cash-hungry investor prefer \u2014 and how does the length of the hold period create that tradeoff?"
+    },
+    {
+      "date": "2026-09-14",
+      "treasury_10y": 4.95,
+      "concept": "Cash-on-cash return",
+      "reviewed": [
+        "Equity waterfall and promote",
+        "Debt service coverage ratio"
+      ],
+      "open_thread": "If cash-on-cash return drops below the risk-free rate (today's 10-year at 4.95%), what's the rational argument for still doing the deal \u2014 and when does that argument break down?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-11",
-    "treasury_10y": 4.83,
-    "concept": "IRR vs. equity multiple",
+    "date": "2026-09-14",
+    "treasury_10y": 4.95,
+    "concept": "Cash-on-cash return",
     "reviewed": [
-      "Class A / B / C",
-      "Leasable vs. rentable vs. usable square feet"
+      "Equity waterfall and promote",
+      "Debt service coverage ratio"
     ],
-    "open_thread": "If two deals have the same IRR but different equity multiples, which should a cash-hungry investor prefer \u2014 and how does the length of the hold period create that tradeoff?"
+    "open_thread": "If cash-on-cash return drops below the risk-free rate (today's 10-year at 4.95%), what's the rational argument for still doing the deal \u2014 and when does that argument break down?"
   },
   "schedule": [
     {
@@ -218,8 +228,8 @@
     {
       "concept": "Debt service coverage ratio",
       "taught_at": 11,
-      "due_at": 16,
-      "stage": 1
+      "due_at": 30,
+      "stage": 2
     },
     {
       "concept": "Loan-to-value and loan-to-cost",
@@ -236,13 +246,19 @@
     {
       "concept": "Equity waterfall and promote",
       "taught_at": 14,
-      "due_at": 15,
-      "stage": 0
+      "due_at": 20,
+      "stage": 1
     },
     {
       "concept": "IRR vs. equity multiple",
       "taught_at": 15,
       "due_at": 16,
+      "stage": 0
+    },
+    {
+      "concept": "Cash-on-cash return",
+      "taught_at": 16,
+      "due_at": 17,
       "stage": 0
     }
   ]
