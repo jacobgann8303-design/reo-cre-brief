@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 16,
-  "streak": 16,
+  "concept_index": 17,
+  "streak": 17,
   "entries": [
     {
       "date": "2026-08-25",
@@ -152,17 +152,27 @@
         "Debt service coverage ratio"
       ],
       "open_thread": "If cash-on-cash return drops below the risk-free rate (today's 10-year at 4.95%), what's the rational argument for still doing the deal \u2014 and when does that argument break down?"
+    },
+    {
+      "date": "2026-09-15",
+      "treasury_10y": 4.96,
+      "concept": "Going-in vs. exit cap rate",
+      "reviewed": [
+        "IRR vs. equity multiple",
+        "Loan-to-value and loan-to-cost"
+      ],
+      "open_thread": "If the 10-year stays near 5%, what would have to be true about NOI growth for a deal underwritten at a 6.0% going-in cap rate to still hit its return targets at a 6.5% exit cap rate?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-14",
-    "treasury_10y": 4.95,
-    "concept": "Cash-on-cash return",
+    "date": "2026-09-15",
+    "treasury_10y": 4.96,
+    "concept": "Going-in vs. exit cap rate",
     "reviewed": [
-      "Equity waterfall and promote",
-      "Debt service coverage ratio"
+      "IRR vs. equity multiple",
+      "Loan-to-value and loan-to-cost"
     ],
-    "open_thread": "If cash-on-cash return drops below the risk-free rate (today's 10-year at 4.95%), what's the rational argument for still doing the deal \u2014 and when does that argument break down?"
+    "open_thread": "If the 10-year stays near 5%, what would have to be true about NOI growth for a deal underwritten at a 6.0% going-in cap rate to still hit its return targets at a 6.5% exit cap rate?"
   },
   "schedule": [
     {
@@ -234,8 +244,8 @@
     {
       "concept": "Loan-to-value and loan-to-cost",
       "taught_at": 12,
-      "due_at": 17,
-      "stage": 1
+      "due_at": 31,
+      "stage": 2
     },
     {
       "concept": "The capital stack",
@@ -252,13 +262,19 @@
     {
       "concept": "IRR vs. equity multiple",
       "taught_at": 15,
-      "due_at": 16,
-      "stage": 0
+      "due_at": 21,
+      "stage": 1
     },
     {
       "concept": "Cash-on-cash return",
       "taught_at": 16,
       "due_at": 17,
+      "stage": 0
+    },
+    {
+      "concept": "Going-in vs. exit cap rate",
+      "taught_at": 17,
+      "due_at": 18,
       "stage": 0
     }
   ]
