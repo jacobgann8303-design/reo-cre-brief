@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 17,
-  "streak": 17,
+  "concept_index": 18,
+  "streak": 18,
   "entries": [
     {
       "date": "2026-08-25",
@@ -162,17 +162,27 @@
         "Loan-to-value and loan-to-cost"
       ],
       "open_thread": "If the 10-year stays near 5%, what would have to be true about NOI growth for a deal underwritten at a 6.0% going-in cap rate to still hit its return targets at a 6.5% exit cap rate?"
+    },
+    {
+      "date": "2026-09-16",
+      "treasury_10y": 4.97,
+      "concept": "Pro forma",
+      "reviewed": [
+        "Cash-on-cash return",
+        "The capital stack"
+      ],
+      "open_thread": "If a seller's pro forma shows 3% rent growth annually but in-place rents are already 10% below market, what does that imply about where the real upside \u2014 or risk \u2014 actually lives in the deal?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-15",
-    "treasury_10y": 4.96,
-    "concept": "Going-in vs. exit cap rate",
+    "date": "2026-09-16",
+    "treasury_10y": 4.97,
+    "concept": "Pro forma",
     "reviewed": [
-      "IRR vs. equity multiple",
-      "Loan-to-value and loan-to-cost"
+      "Cash-on-cash return",
+      "The capital stack"
     ],
-    "open_thread": "If the 10-year stays near 5%, what would have to be true about NOI growth for a deal underwritten at a 6.0% going-in cap rate to still hit its return targets at a 6.5% exit cap rate?"
+    "open_thread": "If a seller's pro forma shows 3% rent growth annually but in-place rents are already 10% below market, what does that imply about where the real upside \u2014 or risk \u2014 actually lives in the deal?"
   },
   "schedule": [
     {
@@ -250,8 +260,8 @@
     {
       "concept": "The capital stack",
       "taught_at": 13,
-      "due_at": 18,
-      "stage": 1
+      "due_at": 32,
+      "stage": 2
     },
     {
       "concept": "Equity waterfall and promote",
@@ -268,13 +278,19 @@
     {
       "concept": "Cash-on-cash return",
       "taught_at": 16,
-      "due_at": 17,
-      "stage": 0
+      "due_at": 22,
+      "stage": 1
     },
     {
       "concept": "Going-in vs. exit cap rate",
       "taught_at": 17,
       "due_at": 18,
+      "stage": 0
+    },
+    {
+      "concept": "Pro forma",
+      "taught_at": 18,
+      "due_at": 19,
       "stage": 0
     }
   ]
