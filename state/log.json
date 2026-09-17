@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 18,
-  "streak": 18,
+  "concept_index": 19,
+  "streak": 19,
   "entries": [
     {
       "date": "2026-08-25",
@@ -172,17 +172,27 @@
         "The capital stack"
       ],
       "open_thread": "If a seller's pro forma shows 3% rent growth annually but in-place rents are already 10% below market, what does that imply about where the real upside \u2014 or risk \u2014 actually lives in the deal?"
+    },
+    {
+      "date": "2026-09-17",
+      "treasury_10y": 5.0,
+      "concept": "Offering memorandum",
+      "reviewed": [
+        "Going-in vs. exit cap rate",
+        "Pro forma"
+      ],
+      "open_thread": "If two buyers receive the same OM with the same pro forma, why might they arrive at completely different offers \u2014 and what does that say about whose underwriting you should trust?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-16",
-    "treasury_10y": 4.97,
-    "concept": "Pro forma",
+    "date": "2026-09-17",
+    "treasury_10y": 5.0,
+    "concept": "Offering memorandum",
     "reviewed": [
-      "Cash-on-cash return",
-      "The capital stack"
+      "Going-in vs. exit cap rate",
+      "Pro forma"
     ],
-    "open_thread": "If a seller's pro forma shows 3% rent growth annually but in-place rents are already 10% below market, what does that imply about where the real upside \u2014 or risk \u2014 actually lives in the deal?"
+    "open_thread": "If two buyers receive the same OM with the same pro forma, why might they arrive at completely different offers \u2014 and what does that say about whose underwriting you should trust?"
   },
   "schedule": [
     {
@@ -284,13 +294,19 @@
     {
       "concept": "Going-in vs. exit cap rate",
       "taught_at": 17,
-      "due_at": 18,
-      "stage": 0
+      "due_at": 23,
+      "stage": 1
     },
     {
       "concept": "Pro forma",
       "taught_at": 18,
-      "due_at": 19,
+      "due_at": 23,
+      "stage": 1
+    },
+    {
+      "concept": "Offering memorandum",
+      "taught_at": 19,
+      "due_at": 20,
       "stage": 0
     }
   ]
