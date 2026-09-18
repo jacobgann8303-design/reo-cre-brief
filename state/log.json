@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 19,
-  "streak": 19,
+  "concept_index": 20,
+  "streak": 20,
   "entries": [
     {
       "date": "2026-08-25",
@@ -182,17 +182,27 @@
         "Pro forma"
       ],
       "open_thread": "If two buyers receive the same OM with the same pro forma, why might they arrive at completely different offers \u2014 and what does that say about whose underwriting you should trust?"
+    },
+    {
+      "date": "2026-09-18",
+      "treasury_10y": 5.01,
+      "concept": "Due diligence period",
+      "reviewed": [
+        "Equity waterfall and promote",
+        "Offering memorandum"
+      ],
+      "open_thread": "What happens to a deal when the due diligence period expires and rates keep rising \u2014 does the buyer close anyway, renegotiate, or eat the deposit loss?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-17",
-    "treasury_10y": 5.0,
-    "concept": "Offering memorandum",
+    "date": "2026-09-18",
+    "treasury_10y": 5.01,
+    "concept": "Due diligence period",
     "reviewed": [
-      "Going-in vs. exit cap rate",
-      "Pro forma"
+      "Equity waterfall and promote",
+      "Offering memorandum"
     ],
-    "open_thread": "If two buyers receive the same OM with the same pro forma, why might they arrive at completely different offers \u2014 and what does that say about whose underwriting you should trust?"
+    "open_thread": "What happens to a deal when the due diligence period expires and rates keep rising \u2014 does the buyer close anyway, renegotiate, or eat the deposit loss?"
   },
   "schedule": [
     {
@@ -276,8 +286,8 @@
     {
       "concept": "Equity waterfall and promote",
       "taught_at": 14,
-      "due_at": 20,
-      "stage": 1
+      "due_at": 34,
+      "stage": 2
     },
     {
       "concept": "IRR vs. equity multiple",
@@ -306,7 +316,13 @@
     {
       "concept": "Offering memorandum",
       "taught_at": 19,
-      "due_at": 20,
+      "due_at": 24,
+      "stage": 1
+    },
+    {
+      "concept": "Due diligence period",
+      "taught_at": 20,
+      "due_at": 21,
       "stage": 0
     }
   ]
