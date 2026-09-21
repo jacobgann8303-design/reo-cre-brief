@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 20,
-  "streak": 20,
+  "concept_index": 21,
+  "streak": 21,
   "entries": [
     {
       "date": "2026-08-25",
@@ -192,31 +192,29 @@
         "Offering memorandum"
       ],
       "open_thread": "What happens to a deal when the due diligence period expires and rates keep rising \u2014 does the buyer close anyway, renegotiate, or eat the deposit loss?"
+    },
+    {
+      "date": "2026-09-21",
+      "treasury_10y": 4.94,
+      "concept": "Triple net (NNN) vs. gross vs. modified gross",
+      "reviewed": [
+        "Cap rate",
+        "NOI"
+      ],
+      "open_thread": "How does lease type (NNN vs. gross) affect what a lender is willing to lend on a building \u2014 and does the current rate environment make NNN properties even more valuable to lenders today?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-18",
-    "treasury_10y": 5.01,
-    "concept": "Due diligence period",
+    "date": "2026-09-21",
+    "treasury_10y": 4.94,
+    "concept": "Triple net (NNN) vs. gross vs. modified gross",
     "reviewed": [
-      "Equity waterfall and promote",
-      "Offering memorandum"
+      "Cap rate",
+      "NOI"
     ],
-    "open_thread": "What happens to a deal when the due diligence period expires and rates keep rising \u2014 does the buyer close anyway, renegotiate, or eat the deposit loss?"
+    "open_thread": "How does lease type (NNN vs. gross) affect what a lender is willing to lend on a building \u2014 and does the current rate environment make NNN properties even more valuable to lenders today?"
   },
   "schedule": [
-    {
-      "concept": "Cap rate",
-      "taught_at": 1,
-      "due_at": 21,
-      "stage": 2
-    },
-    {
-      "concept": "NOI",
-      "taught_at": 2,
-      "due_at": 21,
-      "stage": 2
-    },
     {
       "concept": "Price per square foot",
       "taught_at": 3,
@@ -323,6 +321,12 @@
       "concept": "Due diligence period",
       "taught_at": 20,
       "due_at": 21,
+      "stage": 0
+    },
+    {
+      "concept": "Triple net (NNN) vs. gross vs. modified gross",
+      "taught_at": 21,
+      "due_at": 22,
       "stage": 0
     }
   ]
