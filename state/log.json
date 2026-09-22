@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 21,
-  "streak": 21,
+  "concept_index": 22,
+  "streak": 22,
   "entries": [
     {
       "date": "2026-08-25",
@@ -202,17 +202,27 @@
         "NOI"
       ],
       "open_thread": "How does lease type (NNN vs. gross) affect what a lender is willing to lend on a building \u2014 and does the current rate environment make NNN properties even more valuable to lenders today?"
+    },
+    {
+      "date": "2026-09-22",
+      "treasury_10y": 5.01,
+      "concept": "Tenant improvement allowance and leasing commissions",
+      "reviewed": [
+        "IRR vs. equity multiple",
+        "Due diligence period"
+      ],
+      "open_thread": "How do TI allowances and leasing commissions show up in a property's NOI calculation \u2014 and does a landlord offering a big TI package make a building worth more or less to a buyer?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-21",
-    "treasury_10y": 4.94,
-    "concept": "Triple net (NNN) vs. gross vs. modified gross",
+    "date": "2026-09-22",
+    "treasury_10y": 5.01,
+    "concept": "Tenant improvement allowance and leasing commissions",
     "reviewed": [
-      "Cap rate",
-      "NOI"
+      "IRR vs. equity multiple",
+      "Due diligence period"
     ],
-    "open_thread": "How does lease type (NNN vs. gross) affect what a lender is willing to lend on a building \u2014 and does the current rate environment make NNN properties even more valuable to lenders today?"
+    "open_thread": "How do TI allowances and leasing commissions show up in a property's NOI calculation \u2014 and does a landlord offering a big TI package make a building worth more or less to a buyer?"
   },
   "schedule": [
     {
@@ -290,8 +300,8 @@
     {
       "concept": "IRR vs. equity multiple",
       "taught_at": 15,
-      "due_at": 21,
-      "stage": 1
+      "due_at": 36,
+      "stage": 2
     },
     {
       "concept": "Cash-on-cash return",
@@ -320,13 +330,19 @@
     {
       "concept": "Due diligence period",
       "taught_at": 20,
-      "due_at": 21,
-      "stage": 0
+      "due_at": 26,
+      "stage": 1
     },
     {
       "concept": "Triple net (NNN) vs. gross vs. modified gross",
       "taught_at": 21,
       "due_at": 22,
+      "stage": 0
+    },
+    {
+      "concept": "Tenant improvement allowance and leasing commissions",
+      "taught_at": 22,
+      "due_at": 23,
       "stage": 0
     }
   ]
