@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 22,
-  "streak": 22,
+  "concept_index": 23,
+  "streak": 23,
   "entries": [
     {
       "date": "2026-08-25",
@@ -212,25 +212,29 @@
         "Due diligence period"
       ],
       "open_thread": "How do TI allowances and leasing commissions show up in a property's NOI calculation \u2014 and does a landlord offering a big TI package make a building worth more or less to a buyer?"
+    },
+    {
+      "date": "2026-09-23",
+      "treasury_10y": 4.96,
+      "concept": "Free rent and effective rent",
+      "reviewed": [
+        "Price per square foot",
+        "Cash-on-cash return"
+      ],
+      "open_thread": "If effective rent is what a landlord actually collects, how should a buyer use effective rent instead of face rent when calculating NOI and the value of a building?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-22",
-    "treasury_10y": 5.01,
-    "concept": "Tenant improvement allowance and leasing commissions",
+    "date": "2026-09-23",
+    "treasury_10y": 4.96,
+    "concept": "Free rent and effective rent",
     "reviewed": [
-      "IRR vs. equity multiple",
-      "Due diligence period"
+      "Price per square foot",
+      "Cash-on-cash return"
     ],
-    "open_thread": "How do TI allowances and leasing commissions show up in a property's NOI calculation \u2014 and does a landlord offering a big TI package make a building worth more or less to a buyer?"
+    "open_thread": "If effective rent is what a landlord actually collects, how should a buyer use effective rent instead of face rent when calculating NOI and the value of a building?"
   },
   "schedule": [
-    {
-      "concept": "Price per square foot",
-      "taught_at": 3,
-      "due_at": 22,
-      "stage": 2
-    },
     {
       "concept": "The four asset classes",
       "taught_at": 4,
@@ -306,8 +310,8 @@
     {
       "concept": "Cash-on-cash return",
       "taught_at": 16,
-      "due_at": 22,
-      "stage": 1
+      "due_at": 37,
+      "stage": 2
     },
     {
       "concept": "Going-in vs. exit cap rate",
@@ -343,6 +347,12 @@
       "concept": "Tenant improvement allowance and leasing commissions",
       "taught_at": 22,
       "due_at": 23,
+      "stage": 0
+    },
+    {
+      "concept": "Free rent and effective rent",
+      "taught_at": 23,
+      "due_at": 24,
       "stage": 0
     }
   ]
