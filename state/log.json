@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 23,
-  "streak": 23,
+  "concept_index": 24,
+  "streak": 24,
   "entries": [
     {
       "date": "2026-08-25",
@@ -222,25 +222,29 @@
         "Cash-on-cash return"
       ],
       "open_thread": "If effective rent is what a landlord actually collects, how should a buyer use effective rent instead of face rent when calculating NOI and the value of a building?"
+    },
+    {
+      "date": "2026-09-24",
+      "treasury_10y": 4.96,
+      "concept": "Escalations and CPI bumps.",
+      "reviewed": [
+        "Triple net (NNN) vs. gross vs. modified gross",
+        "The four asset classes"
+      ],
+      "open_thread": "If a lease has a CPI escalation cap \u2014 meaning rent only goes up by CPI but no more than 3% \u2014 who benefits when inflation runs above 3%, the landlord or the tenant, and how does that cap affect what a buyer should pay for the building?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "treasury_10y": 4.96,
-    "concept": "Free rent and effective rent",
+    "concept": "Escalations and CPI bumps.",
     "reviewed": [
-      "Price per square foot",
-      "Cash-on-cash return"
+      "Triple net (NNN) vs. gross vs. modified gross",
+      "The four asset classes"
     ],
-    "open_thread": "If effective rent is what a landlord actually collects, how should a buyer use effective rent instead of face rent when calculating NOI and the value of a building?"
+    "open_thread": "If a lease has a CPI escalation cap \u2014 meaning rent only goes up by CPI but no more than 3% \u2014 who benefits when inflation runs above 3%, the landlord or the tenant, and how does that cap affect what a buyer should pay for the building?"
   },
   "schedule": [
-    {
-      "concept": "The four asset classes",
-      "taught_at": 4,
-      "due_at": 23,
-      "stage": 2
-    },
     {
       "concept": "The 10-year Treasury and cap rate spread",
       "taught_at": 5,
@@ -340,8 +344,8 @@
     {
       "concept": "Triple net (NNN) vs. gross vs. modified gross",
       "taught_at": 21,
-      "due_at": 22,
-      "stage": 0
+      "due_at": 28,
+      "stage": 1
     },
     {
       "concept": "Tenant improvement allowance and leasing commissions",
@@ -353,6 +357,12 @@
       "concept": "Free rent and effective rent",
       "taught_at": 23,
       "due_at": 24,
+      "stage": 0
+    },
+    {
+      "concept": "Escalations and CPI bumps.",
+      "taught_at": 24,
+      "due_at": 25,
       "stage": 0
     }
   ]
