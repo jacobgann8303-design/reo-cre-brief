@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 24,
-  "streak": 24,
+  "concept_index": 25,
+  "streak": 25,
   "entries": [
     {
       "date": "2026-08-25",
@@ -232,17 +232,27 @@
         "The four asset classes"
       ],
       "open_thread": "If a lease has a CPI escalation cap \u2014 meaning rent only goes up by CPI but no more than 3% \u2014 who benefits when inflation runs above 3%, the landlord or the tenant, and how does that cap affect what a buyer should pay for the building?"
+    },
+    {
+      "date": "2026-09-25",
+      "treasury_10y": 5.11,
+      "concept": "Anchor tenant and co-tenancy clauses",
+      "reviewed": [
+        "Going-in vs. exit cap rate",
+        "Pro forma"
+      ],
+      "open_thread": ""
     }
   ],
   "last_entry": {
-    "date": "2026-09-24",
-    "treasury_10y": 4.96,
-    "concept": "Escalations and CPI bumps.",
+    "date": "2026-09-25",
+    "treasury_10y": 5.11,
+    "concept": "Anchor tenant and co-tenancy clauses",
     "reviewed": [
-      "Triple net (NNN) vs. gross vs. modified gross",
-      "The four asset classes"
+      "Going-in vs. exit cap rate",
+      "Pro forma"
     ],
-    "open_thread": "If a lease has a CPI escalation cap \u2014 meaning rent only goes up by CPI but no more than 3% \u2014 who benefits when inflation runs above 3%, the landlord or the tenant, and how does that cap affect what a buyer should pay for the building?"
+    "open_thread": ""
   },
   "schedule": [
     {
@@ -320,14 +330,14 @@
     {
       "concept": "Going-in vs. exit cap rate",
       "taught_at": 17,
-      "due_at": 23,
-      "stage": 1
+      "due_at": 39,
+      "stage": 2
     },
     {
       "concept": "Pro forma",
       "taught_at": 18,
-      "due_at": 23,
-      "stage": 1
+      "due_at": 39,
+      "stage": 2
     },
     {
       "concept": "Offering memorandum",
@@ -363,6 +373,12 @@
       "concept": "Escalations and CPI bumps.",
       "taught_at": 24,
       "due_at": 25,
+      "stage": 0
+    },
+    {
+      "concept": "Anchor tenant and co-tenancy clauses",
+      "taught_at": 25,
+      "due_at": 26,
       "stage": 0
     }
   ]
