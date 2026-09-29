@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 26,
-  "streak": 26,
+  "concept_index": 27,
+  "streak": 27,
   "entries": [
     {
       "date": "2026-08-25",
@@ -252,17 +252,27 @@
         "The 10-year Treasury and cap rate spread"
       ],
       "open_thread": "how lenders stress-test lease rollover schedules when deciding whether to refinance a maturing CRE loan"
+    },
+    {
+      "date": "2026-09-29",
+      "treasury_10y": 5.17,
+      "concept": "Percentage rent",
+      "reviewed": [
+        "Offering memorandum",
+        "Free rent and effective rent"
+      ],
+      "open_thread": "how lenders treat percentage rent income when sizing a loan \u2014 does it count toward NOI or get discounted, and why?"
     }
   ],
   "last_entry": {
-    "date": "2026-09-28",
-    "treasury_10y": 5.18,
-    "concept": "Lease rollover risk and the maturity wall.",
+    "date": "2026-09-29",
+    "treasury_10y": 5.17,
+    "concept": "Percentage rent",
     "reviewed": [
-      "Tenant improvement allowance and leasing commissions",
-      "The 10-year Treasury and cap rate spread"
+      "Offering memorandum",
+      "Free rent and effective rent"
     ],
-    "open_thread": "how lenders stress-test lease rollover schedules when deciding whether to refinance a maturing CRE loan"
+    "open_thread": "how lenders treat percentage rent income when sizing a loan \u2014 does it count toward NOI or get discounted, and why?"
   },
   "schedule": [
     {
@@ -346,8 +356,8 @@
     {
       "concept": "Offering memorandum",
       "taught_at": 19,
-      "due_at": 24,
-      "stage": 1
+      "due_at": 41,
+      "stage": 2
     },
     {
       "concept": "Due diligence period",
@@ -370,8 +380,8 @@
     {
       "concept": "Free rent and effective rent",
       "taught_at": 23,
-      "due_at": 24,
-      "stage": 0
+      "due_at": 31,
+      "stage": 1
     },
     {
       "concept": "Escalations and CPI bumps.",
@@ -389,6 +399,12 @@
       "concept": "Lease rollover risk and the maturity wall.",
       "taught_at": 26,
       "due_at": 27,
+      "stage": 0
+    },
+    {
+      "concept": "Percentage rent",
+      "taught_at": 27,
+      "due_at": 28,
       "stage": 0
     }
   ]
