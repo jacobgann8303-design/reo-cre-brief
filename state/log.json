@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 27,
-  "streak": 27,
+  "concept_index": 28,
+  "streak": 28,
   "entries": [
     {
       "date": "2026-08-25",
@@ -262,25 +262,29 @@
         "Free rent and effective rent"
       ],
       "open_thread": "how lenders treat percentage rent income when sizing a loan \u2014 does it count toward NOI or get discounted, and why?"
+    },
+    {
+      "date": "2026-09-30",
+      "treasury_10y": 5.24,
+      "concept": "Common area maintenance (CAM) reconciliation.",
+      "reviewed": [
+        "Escalations and CPI bumps.",
+        "Basis point"
+      ],
+      "open_thread": ""
     }
   ],
   "last_entry": {
-    "date": "2026-09-29",
-    "treasury_10y": 5.17,
-    "concept": "Percentage rent",
+    "date": "2026-09-30",
+    "treasury_10y": 5.24,
+    "concept": "Common area maintenance (CAM) reconciliation.",
     "reviewed": [
-      "Offering memorandum",
-      "Free rent and effective rent"
+      "Escalations and CPI bumps.",
+      "Basis point"
     ],
-    "open_thread": "how lenders treat percentage rent income when sizing a loan \u2014 does it count toward NOI or get discounted, and why?"
+    "open_thread": ""
   },
   "schedule": [
-    {
-      "concept": "Basis point",
-      "taught_at": 6,
-      "due_at": 26,
-      "stage": 2
-    },
     {
       "concept": "Vacancy vs. availability",
       "taught_at": 7,
@@ -386,8 +390,8 @@
     {
       "concept": "Escalations and CPI bumps.",
       "taught_at": 24,
-      "due_at": 25,
-      "stage": 0
+      "due_at": 32,
+      "stage": 1
     },
     {
       "concept": "Anchor tenant and co-tenancy clauses",
@@ -405,6 +409,12 @@
       "concept": "Percentage rent",
       "taught_at": 27,
       "due_at": 28,
+      "stage": 0
+    },
+    {
+      "concept": "Common area maintenance (CAM) reconciliation.",
+      "taught_at": 28,
+      "due_at": 29,
       "stage": 0
     }
   ]
