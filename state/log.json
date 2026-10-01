@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 28,
-  "streak": 28,
+  "concept_index": 29,
+  "streak": 29,
   "entries": [
     {
       "date": "2026-08-25",
@@ -272,17 +272,27 @@
         "Basis point"
       ],
       "open_thread": ""
+    },
+    {
+      "date": "2026-10-01",
+      "treasury_10y": 5.26,
+      "concept": "CMBS",
+      "reviewed": [
+        "Due diligence period",
+        "Anchor tenant and co-tenancy clauses"
+      ],
+      "open_thread": "how CMBS spreads widen during stress and what that means for loan maturities coming due in a high-rate environment"
     }
   ],
   "last_entry": {
-    "date": "2026-09-30",
-    "treasury_10y": 5.24,
-    "concept": "Common area maintenance (CAM) reconciliation.",
+    "date": "2026-10-01",
+    "treasury_10y": 5.26,
+    "concept": "CMBS",
     "reviewed": [
-      "Escalations and CPI bumps.",
-      "Basis point"
+      "Due diligence period",
+      "Anchor tenant and co-tenancy clauses"
     ],
-    "open_thread": ""
+    "open_thread": "how CMBS spreads widen during stress and what that means for loan maturities coming due in a high-rate environment"
   },
   "schedule": [
     {
@@ -366,8 +376,8 @@
     {
       "concept": "Due diligence period",
       "taught_at": 20,
-      "due_at": 26,
-      "stage": 1
+      "due_at": 43,
+      "stage": 2
     },
     {
       "concept": "Triple net (NNN) vs. gross vs. modified gross",
@@ -396,8 +406,8 @@
     {
       "concept": "Anchor tenant and co-tenancy clauses",
       "taught_at": 25,
-      "due_at": 26,
-      "stage": 0
+      "due_at": 33,
+      "stage": 1
     },
     {
       "concept": "Lease rollover risk and the maturity wall.",
@@ -415,6 +425,12 @@
       "concept": "Common area maintenance (CAM) reconciliation.",
       "taught_at": 28,
       "due_at": 29,
+      "stage": 0
+    },
+    {
+      "concept": "CMBS",
+      "taught_at": 29,
+      "due_at": 30,
       "stage": 0
     }
   ]
