@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 29,
-  "streak": 29,
+  "concept_index": 30,
+  "streak": 30,
   "entries": [
     {
       "date": "2026-08-25",
@@ -282,25 +282,29 @@
         "Anchor tenant and co-tenancy clauses"
       ],
       "open_thread": "how CMBS spreads widen during stress and what that means for loan maturities coming due in a high-rate environment"
+    },
+    {
+      "date": "2026-10-02",
+      "treasury_10y": 5.29,
+      "concept": "REIT structure",
+      "reviewed": [
+        "Vacancy vs. availability",
+        "Lease rollover risk and the maturity wall."
+      ],
+      "open_thread": "why REIT dividend yields and Treasury rates stay in tension, and what happens to MAA's price if the Fed signals rate cuts"
     }
   ],
   "last_entry": {
-    "date": "2026-10-01",
-    "treasury_10y": 5.26,
-    "concept": "CMBS",
+    "date": "2026-10-02",
+    "treasury_10y": 5.29,
+    "concept": "REIT structure",
     "reviewed": [
-      "Due diligence period",
-      "Anchor tenant and co-tenancy clauses"
+      "Vacancy vs. availability",
+      "Lease rollover risk and the maturity wall."
     ],
-    "open_thread": "how CMBS spreads widen during stress and what that means for loan maturities coming due in a high-rate environment"
+    "open_thread": "why REIT dividend yields and Treasury rates stay in tension, and what happens to MAA's price if the Fed signals rate cuts"
   },
   "schedule": [
-    {
-      "concept": "Vacancy vs. availability",
-      "taught_at": 7,
-      "due_at": 27,
-      "stage": 2
-    },
     {
       "concept": "Absorption",
       "taught_at": 8,
@@ -412,8 +416,8 @@
     {
       "concept": "Lease rollover risk and the maturity wall.",
       "taught_at": 26,
-      "due_at": 27,
-      "stage": 0
+      "due_at": 34,
+      "stage": 1
     },
     {
       "concept": "Percentage rent",
@@ -431,6 +435,12 @@
       "concept": "CMBS",
       "taught_at": 29,
       "due_at": 30,
+      "stage": 0
+    },
+    {
+      "concept": "REIT structure",
+      "taught_at": 30,
+      "due_at": 31,
       "stage": 0
     }
   ]
