@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 30,
-  "streak": 30,
+  "concept_index": 31,
+  "streak": 31,
   "entries": [
     {
       "date": "2026-08-25",
@@ -292,25 +292,29 @@
         "Lease rollover risk and the maturity wall."
       ],
       "open_thread": "why REIT dividend yields and Treasury rates stay in tension, and what happens to MAA's price if the Fed signals rate cuts"
+    },
+    {
+      "date": "2026-10-06",
+      "treasury_10y": 5.28,
+      "concept": "FFO and AFFO",
+      "reviewed": [
+        "Absorption",
+        "Triple net (NNN) vs. gross vs. modified gross"
+      ],
+      "open_thread": "if AFFO is the truer cash number, why do some REITs report FFO prominently and bury AFFO \u2014 and what should that make an investor suspicious of?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-02",
-    "treasury_10y": 5.29,
-    "concept": "REIT structure",
+    "date": "2026-10-06",
+    "treasury_10y": 5.28,
+    "concept": "FFO and AFFO",
     "reviewed": [
-      "Vacancy vs. availability",
-      "Lease rollover risk and the maturity wall."
+      "Absorption",
+      "Triple net (NNN) vs. gross vs. modified gross"
     ],
-    "open_thread": "why REIT dividend yields and Treasury rates stay in tension, and what happens to MAA's price if the Fed signals rate cuts"
+    "open_thread": "if AFFO is the truer cash number, why do some REITs report FFO prominently and bury AFFO \u2014 and what should that make an investor suspicious of?"
   },
   "schedule": [
-    {
-      "concept": "Absorption",
-      "taught_at": 8,
-      "due_at": 28,
-      "stage": 2
-    },
     {
       "concept": "Class A / B / C",
       "taught_at": 9,
@@ -386,8 +390,8 @@
     {
       "concept": "Triple net (NNN) vs. gross vs. modified gross",
       "taught_at": 21,
-      "due_at": 28,
-      "stage": 1
+      "due_at": 45,
+      "stage": 2
     },
     {
       "concept": "Tenant improvement allowance and leasing commissions",
@@ -441,6 +445,12 @@
       "concept": "REIT structure",
       "taught_at": 30,
       "due_at": 31,
+      "stage": 0
+    },
+    {
+      "concept": "FFO and AFFO",
+      "taught_at": 31,
+      "due_at": 32,
       "stage": 0
     }
   ]
