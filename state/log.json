@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 31,
-  "streak": 31,
+  "concept_index": 32,
+  "streak": 32,
   "entries": [
     {
       "date": "2026-08-25",
@@ -302,25 +302,29 @@
         "Triple net (NNN) vs. gross vs. modified gross"
       ],
       "open_thread": "if AFFO is the truer cash number, why do some REITs report FFO prominently and bury AFFO \u2014 and what should that make an investor suspicious of?"
+    },
+    {
+      "date": "2026-10-07",
+      "treasury_10y": 5.31,
+      "concept": "1031 exchange",
+      "reviewed": [
+        "Percentage rent",
+        "Class A / B / C"
+      ],
+      "open_thread": "if the 45-day identification clock is ticking and rates make new deals hard to underwrite, what do sellers actually do \u2014 hold, accept the tax, or use a reverse exchange?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-06",
-    "treasury_10y": 5.28,
-    "concept": "FFO and AFFO",
+    "date": "2026-10-07",
+    "treasury_10y": 5.31,
+    "concept": "1031 exchange",
     "reviewed": [
-      "Absorption",
-      "Triple net (NNN) vs. gross vs. modified gross"
+      "Percentage rent",
+      "Class A / B / C"
     ],
-    "open_thread": "if AFFO is the truer cash number, why do some REITs report FFO prominently and bury AFFO \u2014 and what should that make an investor suspicious of?"
+    "open_thread": "if the 45-day identification clock is ticking and rates make new deals hard to underwrite, what do sellers actually do \u2014 hold, accept the tax, or use a reverse exchange?"
   },
   "schedule": [
-    {
-      "concept": "Class A / B / C",
-      "taught_at": 9,
-      "due_at": 29,
-      "stage": 2
-    },
     {
       "concept": "Leasable vs. rentable vs. usable square feet",
       "taught_at": 10,
@@ -426,8 +430,8 @@
     {
       "concept": "Percentage rent",
       "taught_at": 27,
-      "due_at": 28,
-      "stage": 0
+      "due_at": 36,
+      "stage": 1
     },
     {
       "concept": "Common area maintenance (CAM) reconciliation.",
@@ -451,6 +455,12 @@
       "concept": "FFO and AFFO",
       "taught_at": 31,
       "due_at": 32,
+      "stage": 0
+    },
+    {
+      "concept": "1031 exchange",
+      "taught_at": 32,
+      "due_at": 33,
       "stage": 0
     }
   ]
