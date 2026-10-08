@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 32,
-  "streak": 32,
+  "concept_index": 33,
+  "streak": 33,
   "entries": [
     {
       "date": "2026-08-25",
@@ -312,25 +312,29 @@
         "Class A / B / C"
       ],
       "open_thread": "if the 45-day identification clock is ticking and rates make new deals hard to underwrite, what do sellers actually do \u2014 hold, accept the tax, or use a reverse exchange?"
+    },
+    {
+      "date": "2026-10-08",
+      "treasury_10y": 5.27,
+      "concept": "Opportunity zones.",
+      "reviewed": [
+        "Leasable vs. rentable vs. usable square feet",
+        "Common area maintenance (CAM) reconciliation."
+      ],
+      "open_thread": ""
     }
   ],
   "last_entry": {
-    "date": "2026-10-07",
-    "treasury_10y": 5.31,
-    "concept": "1031 exchange",
+    "date": "2026-10-08",
+    "treasury_10y": 5.27,
+    "concept": "Opportunity zones.",
     "reviewed": [
-      "Percentage rent",
-      "Class A / B / C"
+      "Leasable vs. rentable vs. usable square feet",
+      "Common area maintenance (CAM) reconciliation."
     ],
-    "open_thread": "if the 45-day identification clock is ticking and rates make new deals hard to underwrite, what do sellers actually do \u2014 hold, accept the tax, or use a reverse exchange?"
+    "open_thread": ""
   },
   "schedule": [
-    {
-      "concept": "Leasable vs. rentable vs. usable square feet",
-      "taught_at": 10,
-      "due_at": 29,
-      "stage": 2
-    },
     {
       "concept": "Debt service coverage ratio",
       "taught_at": 11,
@@ -436,8 +440,8 @@
     {
       "concept": "Common area maintenance (CAM) reconciliation.",
       "taught_at": 28,
-      "due_at": 29,
-      "stage": 0
+      "due_at": 37,
+      "stage": 1
     },
     {
       "concept": "CMBS",
@@ -461,6 +465,12 @@
       "concept": "1031 exchange",
       "taught_at": 32,
       "due_at": 33,
+      "stage": 0
+    },
+    {
+      "concept": "Opportunity zones.",
+      "taught_at": 33,
+      "due_at": 34,
       "stage": 0
     }
   ]
