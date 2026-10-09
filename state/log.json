@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 33,
-  "streak": 33,
+  "concept_index": 34,
+  "streak": 34,
   "entries": [
     {
       "date": "2026-08-25",
@@ -322,25 +322,29 @@
         "Common area maintenance (CAM) reconciliation."
       ],
       "open_thread": ""
+    },
+    {
+      "date": "2026-10-09",
+      "treasury_10y": 5.28,
+      "concept": "Sale-leaseback",
+      "reviewed": [
+        "Debt service coverage ratio",
+        "Tenant improvement allowance and leasing commissions"
+      ],
+      "open_thread": "whether today's thin spread between apartment cap rates and the 10-year Treasury will force sale-leaseback pricing lower across property types"
     }
   ],
   "last_entry": {
-    "date": "2026-10-08",
-    "treasury_10y": 5.27,
-    "concept": "Opportunity zones.",
+    "date": "2026-10-09",
+    "treasury_10y": 5.28,
+    "concept": "Sale-leaseback",
     "reviewed": [
-      "Leasable vs. rentable vs. usable square feet",
-      "Common area maintenance (CAM) reconciliation."
+      "Debt service coverage ratio",
+      "Tenant improvement allowance and leasing commissions"
     ],
-    "open_thread": ""
+    "open_thread": "whether today's thin spread between apartment cap rates and the 10-year Treasury will force sale-leaseback pricing lower across property types"
   },
   "schedule": [
-    {
-      "concept": "Debt service coverage ratio",
-      "taught_at": 11,
-      "due_at": 30,
-      "stage": 2
-    },
     {
       "concept": "Loan-to-value and loan-to-cost",
       "taught_at": 12,
@@ -404,8 +408,8 @@
     {
       "concept": "Tenant improvement allowance and leasing commissions",
       "taught_at": 22,
-      "due_at": 30,
-      "stage": 1
+      "due_at": 48,
+      "stage": 2
     },
     {
       "concept": "Free rent and effective rent",
@@ -471,6 +475,12 @@
       "concept": "Opportunity zones.",
       "taught_at": 33,
       "due_at": 34,
+      "stage": 0
+    },
+    {
+      "concept": "Sale-leaseback",
+      "taught_at": 34,
+      "due_at": 35,
       "stage": 0
     }
   ]
