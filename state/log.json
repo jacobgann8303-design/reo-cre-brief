@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 34,
-  "streak": 34,
+  "concept_index": 35,
+  "streak": 35,
   "entries": [
     {
       "date": "2026-08-25",
@@ -332,25 +332,29 @@
         "Tenant improvement allowance and leasing commissions"
       ],
       "open_thread": "whether today's thin spread between apartment cap rates and the 10-year Treasury will force sale-leaseback pricing lower across property types"
+    },
+    {
+      "date": "2026-10-12",
+      "treasury_10y": 5.22,
+      "concept": "Ground lease",
+      "reviewed": [
+        "CMBS",
+        "Loan-to-value and loan-to-cost"
+      ],
+      "open_thread": "whether rising ground rent resets tied to the 10-year Treasury will make ground lease structures less attractive to developers as rates stay elevated"
     }
   ],
   "last_entry": {
-    "date": "2026-10-09",
-    "treasury_10y": 5.28,
-    "concept": "Sale-leaseback",
+    "date": "2026-10-12",
+    "treasury_10y": 5.22,
+    "concept": "Ground lease",
     "reviewed": [
-      "Debt service coverage ratio",
-      "Tenant improvement allowance and leasing commissions"
+      "CMBS",
+      "Loan-to-value and loan-to-cost"
     ],
-    "open_thread": "whether today's thin spread between apartment cap rates and the 10-year Treasury will force sale-leaseback pricing lower across property types"
+    "open_thread": "whether rising ground rent resets tied to the 10-year Treasury will make ground lease structures less attractive to developers as rates stay elevated"
   },
   "schedule": [
-    {
-      "concept": "Loan-to-value and loan-to-cost",
-      "taught_at": 12,
-      "due_at": 31,
-      "stage": 2
-    },
     {
       "concept": "The capital stack",
       "taught_at": 13,
@@ -450,8 +454,8 @@
     {
       "concept": "CMBS",
       "taught_at": 29,
-      "due_at": 30,
-      "stage": 0
+      "due_at": 39,
+      "stage": 1
     },
     {
       "concept": "REIT structure",
@@ -481,6 +485,12 @@
       "concept": "Sale-leaseback",
       "taught_at": 34,
       "due_at": 35,
+      "stage": 0
+    },
+    {
+      "concept": "Ground lease",
+      "taught_at": 35,
+      "due_at": 36,
       "stage": 0
     }
   ]
