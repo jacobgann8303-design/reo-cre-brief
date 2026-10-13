@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 35,
-  "streak": 35,
+  "concept_index": 36,
+  "streak": 36,
   "entries": [
     {
       "date": "2026-08-25",
@@ -342,17 +342,27 @@
         "Loan-to-value and loan-to-cost"
       ],
       "open_thread": "whether rising ground rent resets tied to the 10-year Treasury will make ground lease structures less attractive to developers as rates stay elevated"
+    },
+    {
+      "date": "2026-10-13",
+      "treasury_10y": 5.22,
+      "concept": "Development spread",
+      "reviewed": [
+        "Free rent and effective rent",
+        "REIT structure"
+      ],
+      "open_thread": "whether today's 5.22% 10-year rate has compressed development spreads enough to stall new construction starts in Sun Belt multifamily markets"
     }
   ],
   "last_entry": {
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "treasury_10y": 5.22,
-    "concept": "Ground lease",
+    "concept": "Development spread",
     "reviewed": [
-      "CMBS",
-      "Loan-to-value and loan-to-cost"
+      "Free rent and effective rent",
+      "REIT structure"
     ],
-    "open_thread": "whether rising ground rent resets tied to the 10-year Treasury will make ground lease structures less attractive to developers as rates stay elevated"
+    "open_thread": "whether today's 5.22% 10-year rate has compressed development spreads enough to stall new construction starts in Sun Belt multifamily markets"
   },
   "schedule": [
     {
@@ -418,8 +428,8 @@
     {
       "concept": "Free rent and effective rent",
       "taught_at": 23,
-      "due_at": 31,
-      "stage": 1
+      "due_at": 50,
+      "stage": 2
     },
     {
       "concept": "Escalations and CPI bumps.",
@@ -460,8 +470,8 @@
     {
       "concept": "REIT structure",
       "taught_at": 30,
-      "due_at": 31,
-      "stage": 0
+      "due_at": 40,
+      "stage": 1
     },
     {
       "concept": "FFO and AFFO",
@@ -491,6 +501,12 @@
       "concept": "Ground lease",
       "taught_at": 35,
       "due_at": 36,
+      "stage": 0
+    },
+    {
+      "concept": "Development spread",
+      "taught_at": 36,
+      "due_at": 37,
       "stage": 0
     }
   ]
