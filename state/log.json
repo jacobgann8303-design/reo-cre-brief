@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 36,
-  "streak": 36,
+  "concept_index": 37,
+  "streak": 37,
   "entries": [
     {
       "date": "2026-08-25",
@@ -352,25 +352,29 @@
         "REIT structure"
       ],
       "open_thread": "whether today's 5.22% 10-year rate has compressed development spreads enough to stall new construction starts in Sun Belt multifamily markets"
+    },
+    {
+      "date": "2026-10-14",
+      "treasury_10y": 5.24,
+      "concept": "Construction loan draw schedule.",
+      "reviewed": [
+        "The capital stack",
+        "Escalations and CPI bumps."
+      ],
+      "open_thread": "Whether rising floating-rate construction loan costs mid-draw are forcing Texas developers to restructure deals or pause projects already underway"
     }
   ],
   "last_entry": {
-    "date": "2026-10-13",
-    "treasury_10y": 5.22,
-    "concept": "Development spread",
+    "date": "2026-10-14",
+    "treasury_10y": 5.24,
+    "concept": "Construction loan draw schedule.",
     "reviewed": [
-      "Free rent and effective rent",
-      "REIT structure"
+      "The capital stack",
+      "Escalations and CPI bumps."
     ],
-    "open_thread": "whether today's 5.22% 10-year rate has compressed development spreads enough to stall new construction starts in Sun Belt multifamily markets"
+    "open_thread": "Whether rising floating-rate construction loan costs mid-draw are forcing Texas developers to restructure deals or pause projects already underway"
   },
   "schedule": [
-    {
-      "concept": "The capital stack",
-      "taught_at": 13,
-      "due_at": 32,
-      "stage": 2
-    },
     {
       "concept": "Equity waterfall and promote",
       "taught_at": 14,
@@ -434,8 +438,8 @@
     {
       "concept": "Escalations and CPI bumps.",
       "taught_at": 24,
-      "due_at": 32,
-      "stage": 1
+      "due_at": 51,
+      "stage": 2
     },
     {
       "concept": "Anchor tenant and co-tenancy clauses",
@@ -507,6 +511,12 @@
       "concept": "Development spread",
       "taught_at": 36,
       "due_at": 37,
+      "stage": 0
+    },
+    {
+      "concept": "Construction loan draw schedule.",
+      "taught_at": 37,
+      "due_at": 38,
       "stage": 0
     }
   ]
