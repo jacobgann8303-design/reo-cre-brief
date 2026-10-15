@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 37,
-  "streak": 37,
+  "concept_index": 38,
+  "streak": 38,
   "entries": [
     {
       "date": "2026-08-25",
@@ -362,17 +362,27 @@
         "Escalations and CPI bumps."
       ],
       "open_thread": "Whether rising floating-rate construction loan costs mid-draw are forcing Texas developers to restructure deals or pause projects already underway"
+    },
+    {
+      "date": "2026-10-15",
+      "treasury_10y": 5.21,
+      "concept": "Preferred equity vs. mezzanine debt",
+      "reviewed": [
+        "FFO and AFFO",
+        "Anchor tenant and co-tenancy clauses"
+      ],
+      "open_thread": ""
     }
   ],
   "last_entry": {
-    "date": "2026-10-14",
-    "treasury_10y": 5.24,
-    "concept": "Construction loan draw schedule.",
+    "date": "2026-10-15",
+    "treasury_10y": 5.21,
+    "concept": "Preferred equity vs. mezzanine debt",
     "reviewed": [
-      "The capital stack",
-      "Escalations and CPI bumps."
+      "FFO and AFFO",
+      "Anchor tenant and co-tenancy clauses"
     ],
-    "open_thread": "Whether rising floating-rate construction loan costs mid-draw are forcing Texas developers to restructure deals or pause projects already underway"
+    "open_thread": ""
   },
   "schedule": [
     {
@@ -444,8 +454,8 @@
     {
       "concept": "Anchor tenant and co-tenancy clauses",
       "taught_at": 25,
-      "due_at": 33,
-      "stage": 1
+      "due_at": 52,
+      "stage": 2
     },
     {
       "concept": "Lease rollover risk and the maturity wall.",
@@ -480,8 +490,8 @@
     {
       "concept": "FFO and AFFO",
       "taught_at": 31,
-      "due_at": 32,
-      "stage": 0
+      "due_at": 42,
+      "stage": 1
     },
     {
       "concept": "1031 exchange",
@@ -517,6 +527,12 @@
       "concept": "Construction loan draw schedule.",
       "taught_at": 37,
       "due_at": 38,
+      "stage": 0
+    },
+    {
+      "concept": "Preferred equity vs. mezzanine debt",
+      "taught_at": 38,
+      "due_at": 39,
       "stage": 0
     }
   ]
