@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 38,
-  "streak": 38,
+  "concept_index": 39,
+  "streak": 39,
   "entries": [
     {
       "date": "2026-08-25",
@@ -372,25 +372,29 @@
         "Anchor tenant and co-tenancy clauses"
       ],
       "open_thread": ""
+    },
+    {
+      "date": "2026-10-16",
+      "treasury_10y": 5.19,
+      "concept": "Submarket",
+      "reviewed": [
+        "1031 exchange",
+        "Equity waterfall and promote"
+      ],
+      "open_thread": "how submarket vacancy divergence affects a lender's loan sizing decision vs. a buyer's offer price"
     }
   ],
   "last_entry": {
-    "date": "2026-10-15",
-    "treasury_10y": 5.21,
-    "concept": "Preferred equity vs. mezzanine debt",
+    "date": "2026-10-16",
+    "treasury_10y": 5.19,
+    "concept": "Submarket",
     "reviewed": [
-      "FFO and AFFO",
-      "Anchor tenant and co-tenancy clauses"
+      "1031 exchange",
+      "Equity waterfall and promote"
     ],
-    "open_thread": ""
+    "open_thread": "how submarket vacancy divergence affects a lender's loan sizing decision vs. a buyer's offer price"
   },
   "schedule": [
-    {
-      "concept": "Equity waterfall and promote",
-      "taught_at": 14,
-      "due_at": 34,
-      "stage": 2
-    },
     {
       "concept": "IRR vs. equity multiple",
       "taught_at": 15,
@@ -496,8 +500,8 @@
     {
       "concept": "1031 exchange",
       "taught_at": 32,
-      "due_at": 33,
-      "stage": 0
+      "due_at": 43,
+      "stage": 1
     },
     {
       "concept": "Opportunity zones.",
@@ -533,6 +537,12 @@
       "concept": "Preferred equity vs. mezzanine debt",
       "taught_at": 38,
       "due_at": 39,
+      "stage": 0
+    },
+    {
+      "concept": "Submarket",
+      "taught_at": 39,
+      "due_at": 40,
       "stage": 0
     }
   ]
