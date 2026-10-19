@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 39,
-  "streak": 39,
+  "concept_index": 40,
+  "streak": 40,
   "entries": [
     {
       "date": "2026-08-25",
@@ -382,17 +382,27 @@
         "Equity waterfall and promote"
       ],
       "open_thread": "how submarket vacancy divergence affects a lender's loan sizing decision vs. a buyer's offer price"
+    },
+    {
+      "date": "2026-10-19",
+      "treasury_10y": 5.1,
+      "concept": "Comparable sales (comps)",
+      "reviewed": [
+        "Lease rollover risk and the maturity wall.",
+        "Opportunity zones."
+      ],
+      "open_thread": "how stale comps from a lower-rate environment cause borrowers to overpay and then fail at refinancing"
     }
   ],
   "last_entry": {
-    "date": "2026-10-16",
-    "treasury_10y": 5.19,
-    "concept": "Submarket",
+    "date": "2026-10-19",
+    "treasury_10y": 5.1,
+    "concept": "Comparable sales (comps)",
     "reviewed": [
-      "1031 exchange",
-      "Equity waterfall and promote"
+      "Lease rollover risk and the maturity wall.",
+      "Opportunity zones."
     ],
-    "open_thread": "how submarket vacancy divergence affects a lender's loan sizing decision vs. a buyer's offer price"
+    "open_thread": "how stale comps from a lower-rate environment cause borrowers to overpay and then fail at refinancing"
   },
   "schedule": [
     {
@@ -464,8 +474,8 @@
     {
       "concept": "Lease rollover risk and the maturity wall.",
       "taught_at": 26,
-      "due_at": 34,
-      "stage": 1
+      "due_at": 54,
+      "stage": 2
     },
     {
       "concept": "Percentage rent",
@@ -506,8 +516,8 @@
     {
       "concept": "Opportunity zones.",
       "taught_at": 33,
-      "due_at": 34,
-      "stage": 0
+      "due_at": 44,
+      "stage": 1
     },
     {
       "concept": "Sale-leaseback",
@@ -543,6 +553,12 @@
       "concept": "Submarket",
       "taught_at": 39,
       "due_at": 40,
+      "stage": 0
+    },
+    {
+      "concept": "Comparable sales (comps)",
+      "taught_at": 40,
+      "due_at": 41,
       "stage": 0
     }
   ]
