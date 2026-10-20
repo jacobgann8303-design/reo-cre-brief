@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 40,
-  "streak": 40,
+  "concept_index": 41,
+  "streak": 41,
   "entries": [
     {
       "date": "2026-08-25",
@@ -392,25 +392,29 @@
         "Opportunity zones."
       ],
       "open_thread": "how stale comps from a lower-rate environment cause borrowers to overpay and then fail at refinancing"
+    },
+    {
+      "date": "2026-10-20",
+      "treasury_10y": 5.09,
+      "concept": "Replacement cost",
+      "reviewed": [
+        "Sale-leaseback",
+        "IRR vs. equity multiple"
+      ],
+      "open_thread": "When construction costs keep rising, at what point does buying below replacement cost stop being a bargain if rents aren't rising fast enough to support new development anyway?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-19",
-    "treasury_10y": 5.1,
-    "concept": "Comparable sales (comps)",
+    "date": "2026-10-20",
+    "treasury_10y": 5.09,
+    "concept": "Replacement cost",
     "reviewed": [
-      "Lease rollover risk and the maturity wall.",
-      "Opportunity zones."
+      "Sale-leaseback",
+      "IRR vs. equity multiple"
     ],
-    "open_thread": "how stale comps from a lower-rate environment cause borrowers to overpay and then fail at refinancing"
+    "open_thread": "When construction costs keep rising, at what point does buying below replacement cost stop being a bargain if rents aren't rising fast enough to support new development anyway?"
   },
   "schedule": [
-    {
-      "concept": "IRR vs. equity multiple",
-      "taught_at": 15,
-      "due_at": 36,
-      "stage": 2
-    },
     {
       "concept": "Cash-on-cash return",
       "taught_at": 16,
@@ -522,8 +526,8 @@
     {
       "concept": "Sale-leaseback",
       "taught_at": 34,
-      "due_at": 35,
-      "stage": 0
+      "due_at": 45,
+      "stage": 1
     },
     {
       "concept": "Ground lease",
@@ -559,6 +563,12 @@
       "concept": "Comparable sales (comps)",
       "taught_at": 40,
       "due_at": 41,
+      "stage": 0
+    },
+    {
+      "concept": "Replacement cost",
+      "taught_at": 41,
+      "due_at": 42,
       "stage": 0
     }
   ]
