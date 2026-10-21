@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 41,
-  "streak": 41,
+  "concept_index": 42,
+  "streak": 42,
   "entries": [
     {
       "date": "2026-08-25",
@@ -402,17 +402,27 @@
         "IRR vs. equity multiple"
       ],
       "open_thread": "When construction costs keep rising, at what point does buying below replacement cost stop being a bargain if rents aren't rising fast enough to support new development anyway?"
+    },
+    {
+      "date": "2026-10-21",
+      "treasury_10y": null,
+      "concept": "Supply pipeline",
+      "reviewed": [
+        "Percentage rent",
+        "Ground lease"
+      ],
+      "open_thread": "If the multifamily pipeline is shrinking because construction costs are too high, does that make existing apartment REITs like MAA automatic winners \u2014 or are there demand-side risks that could still hurt them even with less new supply coming?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-20",
-    "treasury_10y": 5.09,
-    "concept": "Replacement cost",
+    "date": "2026-10-21",
+    "treasury_10y": null,
+    "concept": "Supply pipeline",
     "reviewed": [
-      "Sale-leaseback",
-      "IRR vs. equity multiple"
+      "Percentage rent",
+      "Ground lease"
     ],
-    "open_thread": "When construction costs keep rising, at what point does buying below replacement cost stop being a bargain if rents aren't rising fast enough to support new development anyway?"
+    "open_thread": "If the multifamily pipeline is shrinking because construction costs are too high, does that make existing apartment REITs like MAA automatic winners \u2014 or are there demand-side risks that could still hurt them even with less new supply coming?"
   },
   "schedule": [
     {
@@ -484,8 +494,8 @@
     {
       "concept": "Percentage rent",
       "taught_at": 27,
-      "due_at": 36,
-      "stage": 1
+      "due_at": 56,
+      "stage": 2
     },
     {
       "concept": "Common area maintenance (CAM) reconciliation.",
@@ -532,8 +542,8 @@
     {
       "concept": "Ground lease",
       "taught_at": 35,
-      "due_at": 36,
-      "stage": 0
+      "due_at": 46,
+      "stage": 1
     },
     {
       "concept": "Development spread",
@@ -569,6 +579,12 @@
       "concept": "Replacement cost",
       "taught_at": 41,
       "due_at": 42,
+      "stage": 0
+    },
+    {
+      "concept": "Supply pipeline",
+      "taught_at": 42,
+      "due_at": 43,
       "stage": 0
     }
   ]
