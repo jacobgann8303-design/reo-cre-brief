@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 43,
-  "streak": 43,
+  "concept_index": 44,
+  "streak": 44,
   "entries": [
     {
       "date": "2026-08-25",
@@ -422,17 +422,27 @@
         "Common area maintenance (CAM) reconciliation."
       ],
       "open_thread": "If Texas keeps attracting migrants but 25% of apartment loans are already cash-flow negative, what breaks first \u2014 do landlords cut rents to keep occupancy up, or do lenders force sales and reset prices?"
+    },
+    {
+      "date": "2026-10-23",
+      "treasury_10y": 5.13,
+      "concept": "Broker vs. principal vs. advisor",
+      "reviewed": [
+        "Development spread",
+        "Construction loan draw schedule."
+      ],
+      "open_thread": "If the broker's incentive is to close and the advisor's incentive is accuracy, what happens when a firm acts as both \u2014 advising a client while also earning a transaction fee?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-22",
-    "treasury_10y": 5.12,
-    "concept": "Migration and household formation",
+    "date": "2026-10-23",
+    "treasury_10y": 5.13,
+    "concept": "Broker vs. principal vs. advisor",
     "reviewed": [
-      "Cash-on-cash return",
-      "Common area maintenance (CAM) reconciliation."
+      "Development spread",
+      "Construction loan draw schedule."
     ],
-    "open_thread": "If Texas keeps attracting migrants but 25% of apartment loans are already cash-flow negative, what breaks first \u2014 do landlords cut rents to keep occupancy up, or do lenders force sales and reset prices?"
+    "open_thread": "If the broker's incentive is to close and the advisor's incentive is accuracy, what happens when a firm acts as both \u2014 advising a client while also earning a transaction fee?"
   },
   "schedule": [
     {
@@ -552,14 +562,14 @@
     {
       "concept": "Development spread",
       "taught_at": 36,
-      "due_at": 37,
-      "stage": 0
+      "due_at": 48,
+      "stage": 1
     },
     {
       "concept": "Construction loan draw schedule.",
       "taught_at": 37,
-      "due_at": 38,
-      "stage": 0
+      "due_at": 48,
+      "stage": 1
     },
     {
       "concept": "Preferred equity vs. mezzanine debt",
@@ -595,6 +605,12 @@
       "concept": "Migration and household formation",
       "taught_at": 43,
       "due_at": 44,
+      "stage": 0
+    },
+    {
+      "concept": "Broker vs. principal vs. advisor",
+      "taught_at": 44,
+      "due_at": 45,
       "stage": 0
     }
   ]
