@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 44,
-  "streak": 44,
+  "concept_index": 45,
+  "streak": 45,
   "entries": [
     {
       "date": "2026-08-25",
@@ -432,31 +432,29 @@
         "Construction loan draw schedule."
       ],
       "open_thread": "If the broker's incentive is to close and the advisor's incentive is accuracy, what happens when a firm acts as both \u2014 advising a client while also earning a transaction fee?"
+    },
+    {
+      "date": "2026-10-26",
+      "treasury_10y": 4.96,
+      "concept": "The CRE career ladder",
+      "reviewed": [
+        "Going-in vs. exit cap rate",
+        "Pro forma"
+      ],
+      "open_thread": "At what point on the career ladder does someone shift from executing someone else's judgment to exercising their own \u2014 and how do you prove you're ready for that shift?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-23",
-    "treasury_10y": 5.13,
-    "concept": "Broker vs. principal vs. advisor",
+    "date": "2026-10-26",
+    "treasury_10y": 4.96,
+    "concept": "The CRE career ladder",
     "reviewed": [
-      "Development spread",
-      "Construction loan draw schedule."
+      "Going-in vs. exit cap rate",
+      "Pro forma"
     ],
-    "open_thread": "If the broker's incentive is to close and the advisor's incentive is accuracy, what happens when a firm acts as both \u2014 advising a client while also earning a transaction fee?"
+    "open_thread": "At what point on the career ladder does someone shift from executing someone else's judgment to exercising their own \u2014 and how do you prove you're ready for that shift?"
   },
   "schedule": [
-    {
-      "concept": "Going-in vs. exit cap rate",
-      "taught_at": 17,
-      "due_at": 39,
-      "stage": 2
-    },
-    {
-      "concept": "Pro forma",
-      "taught_at": 18,
-      "due_at": 39,
-      "stage": 2
-    },
     {
       "concept": "Offering memorandum",
       "taught_at": 19,
@@ -611,6 +609,12 @@
       "concept": "Broker vs. principal vs. advisor",
       "taught_at": 44,
       "due_at": 45,
+      "stage": 0
+    },
+    {
+      "concept": "The CRE career ladder",
+      "taught_at": 45,
+      "due_at": 46,
       "stage": 0
     }
   ]
