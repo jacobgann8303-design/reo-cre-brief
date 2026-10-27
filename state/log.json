@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 45,
-  "streak": 45,
+  "concept_index": 46,
+  "streak": 46,
   "entries": [
     {
       "date": "2026-08-25",
@@ -442,17 +442,27 @@
         "Pro forma"
       ],
       "open_thread": "At what point on the career ladder does someone shift from executing someone else's judgment to exercising their own \u2014 and how do you prove you're ready for that shift?"
+    },
+    {
+      "date": "2026-10-27",
+      "treasury_10y": 5.0,
+      "concept": "ARGUS",
+      "reviewed": [
+        "CMBS",
+        "Preferred equity vs. mezzanine debt"
+      ],
+      "open_thread": "If ARGUS output drives acquisition decisions, what assumptions \u2014 rent growth, vacancy, exit cap rate \u2014 have the biggest impact on whether a deal pencils, and who decides what numbers to plug in?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-26",
-    "treasury_10y": 4.96,
-    "concept": "The CRE career ladder",
+    "date": "2026-10-27",
+    "treasury_10y": 5.0,
+    "concept": "ARGUS",
     "reviewed": [
-      "Going-in vs. exit cap rate",
-      "Pro forma"
+      "CMBS",
+      "Preferred equity vs. mezzanine debt"
     ],
-    "open_thread": "At what point on the career ladder does someone shift from executing someone else's judgment to exercising their own \u2014 and how do you prove you're ready for that shift?"
+    "open_thread": "If ARGUS output drives acquisition decisions, what assumptions \u2014 rent growth, vacancy, exit cap rate \u2014 have the biggest impact on whether a deal pencils, and who decides what numbers to plug in?"
   },
   "schedule": [
     {
@@ -518,8 +528,8 @@
     {
       "concept": "CMBS",
       "taught_at": 29,
-      "due_at": 39,
-      "stage": 1
+      "due_at": 60,
+      "stage": 2
     },
     {
       "concept": "REIT structure",
@@ -572,8 +582,8 @@
     {
       "concept": "Preferred equity vs. mezzanine debt",
       "taught_at": 38,
-      "due_at": 39,
-      "stage": 0
+      "due_at": 50,
+      "stage": 1
     },
     {
       "concept": "Submarket",
@@ -615,6 +625,12 @@
       "concept": "The CRE career ladder",
       "taught_at": 45,
       "due_at": 46,
+      "stage": 0
+    },
+    {
+      "concept": "ARGUS",
+      "taught_at": 46,
+      "due_at": 47,
       "stage": 0
     }
   ]
