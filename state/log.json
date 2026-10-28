@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 46,
-  "streak": 46,
+  "concept_index": 1,
+  "streak": 47,
   "entries": [
     {
       "date": "2026-08-25",
@@ -452,17 +452,27 @@
         "Preferred equity vs. mezzanine debt"
       ],
       "open_thread": "If ARGUS output drives acquisition decisions, what assumptions \u2014 rent growth, vacancy, exit cap rate \u2014 have the biggest impact on whether a deal pencils, and who decides what numbers to plug in?"
+    },
+    {
+      "date": "2026-10-28",
+      "treasury_10y": 5.0,
+      "concept": "Cap rate",
+      "reviewed": [
+        "REIT structure",
+        "Submarket"
+      ],
+      "open_thread": "If the 10-year stays at 5.00% and buyers demand a risk premium of at least 2%, what cap rate does that imply \u2014 and what does that do to the price of a building whose NOI hasn't changed?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "treasury_10y": 5.0,
-    "concept": "ARGUS",
+    "concept": "Cap rate",
     "reviewed": [
-      "CMBS",
-      "Preferred equity vs. mezzanine debt"
+      "REIT structure",
+      "Submarket"
     ],
-    "open_thread": "If ARGUS output drives acquisition decisions, what assumptions \u2014 rent growth, vacancy, exit cap rate \u2014 have the biggest impact on whether a deal pencils, and who decides what numbers to plug in?"
+    "open_thread": "If the 10-year stays at 5.00% and buyers demand a risk premium of at least 2%, what cap rate does that imply \u2014 and what does that do to the price of a building whose NOI hasn't changed?"
   },
   "schedule": [
     {
@@ -534,8 +544,8 @@
     {
       "concept": "REIT structure",
       "taught_at": 30,
-      "due_at": 40,
-      "stage": 1
+      "due_at": 61,
+      "stage": 2
     },
     {
       "concept": "FFO and AFFO",
@@ -588,8 +598,8 @@
     {
       "concept": "Submarket",
       "taught_at": 39,
-      "due_at": 40,
-      "stage": 0
+      "due_at": 51,
+      "stage": 1
     },
     {
       "concept": "Comparable sales (comps)",
@@ -631,6 +641,12 @@
       "concept": "ARGUS",
       "taught_at": 46,
       "due_at": 47,
+      "stage": 0
+    },
+    {
+      "concept": "Cap rate",
+      "taught_at": 47,
+      "due_at": 48,
       "stage": 0
     }
   ]
