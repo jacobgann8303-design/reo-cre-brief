@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 1,
-  "streak": 47,
+  "concept_index": 2,
+  "streak": 48,
   "entries": [
     {
       "date": "2026-08-25",
@@ -462,25 +462,29 @@
         "Submarket"
       ],
       "open_thread": "If the 10-year stays at 5.00% and buyers demand a risk premium of at least 2%, what cap rate does that imply \u2014 and what does that do to the price of a building whose NOI hasn't changed?"
+    },
+    {
+      "date": "2026-10-29",
+      "treasury_10y": 4.99,
+      "concept": "NOI",
+      "reviewed": [
+        "Offering memorandum",
+        "Comparable sales (comps)"
+      ],
+      "open_thread": "If operating expenses rise \u2014 say insurance costs jump 20% on a Texas apartment building \u2014 what happens to NOI, and what does that do to the building's value at the same cap rate?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-28",
-    "treasury_10y": 5.0,
-    "concept": "Cap rate",
+    "date": "2026-10-29",
+    "treasury_10y": 4.99,
+    "concept": "NOI",
     "reviewed": [
-      "REIT structure",
-      "Submarket"
+      "Offering memorandum",
+      "Comparable sales (comps)"
     ],
-    "open_thread": "If the 10-year stays at 5.00% and buyers demand a risk premium of at least 2%, what cap rate does that imply \u2014 and what does that do to the price of a building whose NOI hasn't changed?"
+    "open_thread": "If operating expenses rise \u2014 say insurance costs jump 20% on a Texas apartment building \u2014 what happens to NOI, and what does that do to the building's value at the same cap rate?"
   },
   "schedule": [
-    {
-      "concept": "Offering memorandum",
-      "taught_at": 19,
-      "due_at": 41,
-      "stage": 2
-    },
     {
       "concept": "Due diligence period",
       "taught_at": 20,
@@ -604,8 +608,8 @@
     {
       "concept": "Comparable sales (comps)",
       "taught_at": 40,
-      "due_at": 41,
-      "stage": 0
+      "due_at": 52,
+      "stage": 1
     },
     {
       "concept": "Replacement cost",
@@ -647,6 +651,12 @@
       "concept": "Cap rate",
       "taught_at": 47,
       "due_at": 48,
+      "stage": 0
+    },
+    {
+      "concept": "NOI",
+      "taught_at": 48,
+      "due_at": 49,
       "stage": 0
     }
   ]
