@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 2,
-  "streak": 48,
+  "concept_index": 3,
+  "streak": 49,
   "entries": [
     {
       "date": "2026-08-25",
@@ -472,17 +472,27 @@
         "Comparable sales (comps)"
       ],
       "open_thread": "If operating expenses rise \u2014 say insurance costs jump 20% on a Texas apartment building \u2014 what happens to NOI, and what does that do to the building's value at the same cap rate?"
+    },
+    {
+      "date": "2026-10-30",
+      "treasury_10y": 5.05,
+      "concept": "Price per square foot",
+      "reviewed": [
+        "FFO and AFFO",
+        "Replacement cost"
+      ],
+      "open_thread": "If two buildings have the same price per square foot but different cap rates, what does that tell you about their NOI relative to their size?"
     }
   ],
   "last_entry": {
-    "date": "2026-10-29",
-    "treasury_10y": 4.99,
-    "concept": "NOI",
+    "date": "2026-10-30",
+    "treasury_10y": 5.05,
+    "concept": "Price per square foot",
     "reviewed": [
-      "Offering memorandum",
-      "Comparable sales (comps)"
+      "FFO and AFFO",
+      "Replacement cost"
     ],
-    "open_thread": "If operating expenses rise \u2014 say insurance costs jump 20% on a Texas apartment building \u2014 what happens to NOI, and what does that do to the building's value at the same cap rate?"
+    "open_thread": "If two buildings have the same price per square foot but different cap rates, what does that tell you about their NOI relative to their size?"
   },
   "schedule": [
     {
@@ -554,8 +564,8 @@
     {
       "concept": "FFO and AFFO",
       "taught_at": 31,
-      "due_at": 42,
-      "stage": 1
+      "due_at": 63,
+      "stage": 2
     },
     {
       "concept": "1031 exchange",
@@ -614,8 +624,8 @@
     {
       "concept": "Replacement cost",
       "taught_at": 41,
-      "due_at": 42,
-      "stage": 0
+      "due_at": 53,
+      "stage": 1
     },
     {
       "concept": "Supply pipeline",
@@ -657,6 +667,12 @@
       "concept": "NOI",
       "taught_at": 48,
       "due_at": 49,
+      "stage": 0
+    },
+    {
+      "concept": "Price per square foot",
+      "taught_at": 49,
+      "due_at": 50,
       "stage": 0
     }
   ]
