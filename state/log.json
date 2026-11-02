@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 3,
-  "streak": 49,
+  "concept_index": 4,
+  "streak": 50,
   "entries": [
     {
       "date": "2026-08-25",
@@ -482,25 +482,29 @@
         "Replacement cost"
       ],
       "open_thread": "If two buildings have the same price per square foot but different cap rates, what does that tell you about their NOI relative to their size?"
+    },
+    {
+      "date": "2026-11-02",
+      "treasury_10y": 4.98,
+      "concept": "The four asset classes",
+      "reviewed": [
+        "Due diligence period",
+        "1031 exchange"
+      ],
+      "open_thread": "which of the four asset classes is most exposed if the Fed resumes rate hikes, and why"
     }
   ],
   "last_entry": {
-    "date": "2026-10-30",
-    "treasury_10y": 5.05,
-    "concept": "Price per square foot",
+    "date": "2026-11-02",
+    "treasury_10y": 4.98,
+    "concept": "The four asset classes",
     "reviewed": [
-      "FFO and AFFO",
-      "Replacement cost"
+      "Due diligence period",
+      "1031 exchange"
     ],
-    "open_thread": "If two buildings have the same price per square foot but different cap rates, what does that tell you about their NOI relative to their size?"
+    "open_thread": "which of the four asset classes is most exposed if the Fed resumes rate hikes, and why"
   },
   "schedule": [
-    {
-      "concept": "Due diligence period",
-      "taught_at": 20,
-      "due_at": 43,
-      "stage": 2
-    },
     {
       "concept": "Triple net (NNN) vs. gross vs. modified gross",
       "taught_at": 21,
@@ -570,8 +574,8 @@
     {
       "concept": "1031 exchange",
       "taught_at": 32,
-      "due_at": 43,
-      "stage": 1
+      "due_at": 64,
+      "stage": 2
     },
     {
       "concept": "Opportunity zones.",
@@ -673,6 +677,12 @@
       "concept": "Price per square foot",
       "taught_at": 49,
       "due_at": 50,
+      "stage": 0
+    },
+    {
+      "concept": "The four asset classes",
+      "taught_at": 50,
+      "due_at": 51,
       "stage": 0
     }
   ]
