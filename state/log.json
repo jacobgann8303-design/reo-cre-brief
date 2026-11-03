@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 4,
-  "streak": 50,
+  "concept_index": 5,
+  "streak": 51,
   "entries": [
     {
       "date": "2026-08-25",
@@ -492,17 +492,27 @@
         "1031 exchange"
       ],
       "open_thread": "which of the four asset classes is most exposed if the Fed resumes rate hikes, and why"
+    },
+    {
+      "date": "2026-11-03",
+      "treasury_10y": 4.94,
+      "concept": "The 10-year Treasury and cap rate spread",
+      "reviewed": [
+        "Supply pipeline",
+        "Opportunity zones."
+      ],
+      "open_thread": ""
     }
   ],
   "last_entry": {
-    "date": "2026-11-02",
-    "treasury_10y": 4.98,
-    "concept": "The four asset classes",
+    "date": "2026-11-03",
+    "treasury_10y": 4.94,
+    "concept": "The 10-year Treasury and cap rate spread",
     "reviewed": [
-      "Due diligence period",
-      "1031 exchange"
+      "Supply pipeline",
+      "Opportunity zones."
     ],
-    "open_thread": "which of the four asset classes is most exposed if the Fed resumes rate hikes, and why"
+    "open_thread": ""
   },
   "schedule": [
     {
@@ -580,8 +590,8 @@
     {
       "concept": "Opportunity zones.",
       "taught_at": 33,
-      "due_at": 44,
-      "stage": 1
+      "due_at": 65,
+      "stage": 2
     },
     {
       "concept": "Sale-leaseback",
@@ -634,8 +644,8 @@
     {
       "concept": "Supply pipeline",
       "taught_at": 42,
-      "due_at": 43,
-      "stage": 0
+      "due_at": 55,
+      "stage": 1
     },
     {
       "concept": "Migration and household formation",
@@ -683,6 +693,12 @@
       "concept": "The four asset classes",
       "taught_at": 50,
       "due_at": 51,
+      "stage": 0
+    },
+    {
+      "concept": "The 10-year Treasury and cap rate spread",
+      "taught_at": 51,
+      "due_at": 52,
       "stage": 0
     }
   ]
