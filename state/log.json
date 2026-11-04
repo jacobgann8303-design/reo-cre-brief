@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 5,
-  "streak": 51,
+  "concept_index": 6,
+  "streak": 52,
   "entries": [
     {
       "date": "2026-08-25",
@@ -502,25 +502,29 @@
         "Opportunity zones."
       ],
       "open_thread": ""
+    },
+    {
+      "date": "2026-11-04",
+      "treasury_10y": 4.91,
+      "concept": "Basis point",
+      "reviewed": [
+        "Migration and household formation",
+        "Triple net (NNN) vs. gross vs. modified gross"
+      ],
+      "open_thread": "how the 10-year-plus-spread loan pricing model connects to cap rate compression when rates fall"
     }
   ],
   "last_entry": {
-    "date": "2026-11-03",
-    "treasury_10y": 4.94,
-    "concept": "The 10-year Treasury and cap rate spread",
+    "date": "2026-11-04",
+    "treasury_10y": 4.91,
+    "concept": "Basis point",
     "reviewed": [
-      "Supply pipeline",
-      "Opportunity zones."
+      "Migration and household formation",
+      "Triple net (NNN) vs. gross vs. modified gross"
     ],
-    "open_thread": ""
+    "open_thread": "how the 10-year-plus-spread loan pricing model connects to cap rate compression when rates fall"
   },
   "schedule": [
-    {
-      "concept": "Triple net (NNN) vs. gross vs. modified gross",
-      "taught_at": 21,
-      "due_at": 45,
-      "stage": 2
-    },
     {
       "concept": "Tenant improvement allowance and leasing commissions",
       "taught_at": 22,
@@ -650,8 +654,8 @@
     {
       "concept": "Migration and household formation",
       "taught_at": 43,
-      "due_at": 44,
-      "stage": 0
+      "due_at": 56,
+      "stage": 1
     },
     {
       "concept": "Broker vs. principal vs. advisor",
@@ -699,6 +703,12 @@
       "concept": "The 10-year Treasury and cap rate spread",
       "taught_at": 51,
       "due_at": 52,
+      "stage": 0
+    },
+    {
+      "concept": "Basis point",
+      "taught_at": 52,
+      "due_at": 53,
       "stage": 0
     }
   ]
