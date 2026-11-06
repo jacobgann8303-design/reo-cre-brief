@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 7,
-  "streak": 53,
+  "concept_index": 8,
+  "streak": 54,
   "entries": [
     {
       "date": "2026-08-25",
@@ -522,17 +522,27 @@
         "Broker vs. principal vs. advisor"
       ],
       "open_thread": "how rising availability in office buildings feeds into cap rate pressure when buyers can see future vacancy coming"
+    },
+    {
+      "date": "2026-11-06",
+      "treasury_10y": 4.9,
+      "concept": "Absorption",
+      "reviewed": [
+        "Ground lease",
+        "The CRE career ladder"
+      ],
+      "open_thread": "whether negative absorption in office markets is now showing up in CMBS delinquency data, and what that chain looks like from empty desk to missed loan payment"
     }
   ],
   "last_entry": {
-    "date": "2026-11-05",
-    "treasury_10y": 4.95,
-    "concept": "Vacancy vs. availability",
+    "date": "2026-11-06",
+    "treasury_10y": 4.9,
+    "concept": "Absorption",
     "reviewed": [
-      "Sale-leaseback",
-      "Broker vs. principal vs. advisor"
+      "Ground lease",
+      "The CRE career ladder"
     ],
-    "open_thread": "how rising availability in office buildings feeds into cap rate pressure when buyers can see future vacancy coming"
+    "open_thread": "whether negative absorption in office markets is now showing up in CMBS delinquency data, and what that chain looks like from empty desk to missed loan payment"
   },
   "schedule": [
     {
@@ -616,8 +626,8 @@
     {
       "concept": "Ground lease",
       "taught_at": 35,
-      "due_at": 46,
-      "stage": 1
+      "due_at": 68,
+      "stage": 2
     },
     {
       "concept": "Development spread",
@@ -676,8 +686,8 @@
     {
       "concept": "The CRE career ladder",
       "taught_at": 45,
-      "due_at": 46,
-      "stage": 0
+      "due_at": 58,
+      "stage": 1
     },
     {
       "concept": "ARGUS",
@@ -725,6 +735,12 @@
       "concept": "Vacancy vs. availability",
       "taught_at": 53,
       "due_at": 54,
+      "stage": 0
+    },
+    {
+      "concept": "Absorption",
+      "taught_at": 54,
+      "due_at": 55,
       "stage": 0
     }
   ]
