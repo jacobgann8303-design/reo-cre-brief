@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 8,
-  "streak": 54,
+  "concept_index": 9,
+  "streak": 55,
   "entries": [
     {
       "date": "2026-08-25",
@@ -532,25 +532,29 @@
         "The CRE career ladder"
       ],
       "open_thread": "whether negative absorption in office markets is now showing up in CMBS delinquency data, and what that chain looks like from empty desk to missed loan payment"
+    },
+    {
+      "date": "2026-11-09",
+      "treasury_10y": 4.86,
+      "concept": "Class A / B / C",
+      "reviewed": [
+        "ARGUS",
+        "Tenant improvement allowance and leasing commissions"
+      ],
+      "open_thread": "whether the DFW office delinquency surge is concentrated in Class B/C assets and what that means for lenders holding that paper"
     }
   ],
   "last_entry": {
-    "date": "2026-11-06",
-    "treasury_10y": 4.9,
-    "concept": "Absorption",
+    "date": "2026-11-09",
+    "treasury_10y": 4.86,
+    "concept": "Class A / B / C",
     "reviewed": [
-      "Ground lease",
-      "The CRE career ladder"
+      "ARGUS",
+      "Tenant improvement allowance and leasing commissions"
     ],
-    "open_thread": "whether negative absorption in office markets is now showing up in CMBS delinquency data, and what that chain looks like from empty desk to missed loan payment"
+    "open_thread": "whether the DFW office delinquency surge is concentrated in Class B/C assets and what that means for lenders holding that paper"
   },
   "schedule": [
-    {
-      "concept": "Tenant improvement allowance and leasing commissions",
-      "taught_at": 22,
-      "due_at": 48,
-      "stage": 2
-    },
     {
       "concept": "Free rent and effective rent",
       "taught_at": 23,
@@ -692,8 +696,8 @@
     {
       "concept": "ARGUS",
       "taught_at": 46,
-      "due_at": 47,
-      "stage": 0
+      "due_at": 59,
+      "stage": 1
     },
     {
       "concept": "Cap rate",
@@ -741,6 +745,12 @@
       "concept": "Absorption",
       "taught_at": 54,
       "due_at": 55,
+      "stage": 0
+    },
+    {
+      "concept": "Class A / B / C",
+      "taught_at": 55,
+      "due_at": 56,
       "stage": 0
     }
   ]
