@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 9,
-  "streak": 55,
+  "concept_index": 10,
+  "streak": 56,
   "entries": [
     {
       "date": "2026-08-25",
@@ -542,17 +542,27 @@
         "Tenant improvement allowance and leasing commissions"
       ],
       "open_thread": "whether the DFW office delinquency surge is concentrated in Class B/C assets and what that means for lenders holding that paper"
+    },
+    {
+      "date": "2026-11-10",
+      "treasury_10y": 4.86,
+      "concept": "Leasable vs. rentable vs. usable square feet",
+      "reviewed": [
+        "Development spread",
+        "Construction loan draw schedule."
+      ],
+      "open_thread": "whether the Selerix Plano lease and other DFW office signings are happening in Class A buildings while Class B/C sits vacant \u2014 and what that means for load factor negotiations"
     }
   ],
   "last_entry": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "treasury_10y": 4.86,
-    "concept": "Class A / B / C",
+    "concept": "Leasable vs. rentable vs. usable square feet",
     "reviewed": [
-      "ARGUS",
-      "Tenant improvement allowance and leasing commissions"
+      "Development spread",
+      "Construction loan draw schedule."
     ],
-    "open_thread": "whether the DFW office delinquency surge is concentrated in Class B/C assets and what that means for lenders holding that paper"
+    "open_thread": "whether the Selerix Plano lease and other DFW office signings are happening in Class A buildings while Class B/C sits vacant \u2014 and what that means for load factor negotiations"
   },
   "schedule": [
     {
@@ -636,14 +646,14 @@
     {
       "concept": "Development spread",
       "taught_at": 36,
-      "due_at": 48,
-      "stage": 1
+      "due_at": 70,
+      "stage": 2
     },
     {
       "concept": "Construction loan draw schedule.",
       "taught_at": 37,
-      "due_at": 48,
-      "stage": 1
+      "due_at": 70,
+      "stage": 2
     },
     {
       "concept": "Preferred equity vs. mezzanine debt",
@@ -751,6 +761,12 @@
       "concept": "Class A / B / C",
       "taught_at": 55,
       "due_at": 56,
+      "stage": 0
+    },
+    {
+      "concept": "Leasable vs. rentable vs. usable square feet",
+      "taught_at": 56,
+      "due_at": 57,
       "stage": 0
     }
   ]
