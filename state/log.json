@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 10,
-  "streak": 56,
+  "concept_index": 11,
+  "streak": 57,
   "entries": [
     {
       "date": "2026-08-25",
@@ -552,17 +552,27 @@
         "Construction loan draw schedule."
       ],
       "open_thread": "whether the Selerix Plano lease and other DFW office signings are happening in Class A buildings while Class B/C sits vacant \u2014 and what that means for load factor negotiations"
+    },
+    {
+      "date": "2026-11-11",
+      "treasury_10y": 4.88,
+      "concept": "Debt service coverage ratio",
+      "reviewed": [
+        "Cap rate",
+        "NOI"
+      ],
+      "open_thread": "whether rising rates are pushing more apartment deals below lender DSCR minimums \u2014 and what that means for MAA's portfolio pricing"
     }
   ],
   "last_entry": {
-    "date": "2026-11-10",
-    "treasury_10y": 4.86,
-    "concept": "Leasable vs. rentable vs. usable square feet",
+    "date": "2026-11-11",
+    "treasury_10y": 4.88,
+    "concept": "Debt service coverage ratio",
     "reviewed": [
-      "Development spread",
-      "Construction loan draw schedule."
+      "Cap rate",
+      "NOI"
     ],
-    "open_thread": "whether the Selerix Plano lease and other DFW office signings are happening in Class A buildings while Class B/C sits vacant \u2014 and what that means for load factor negotiations"
+    "open_thread": "whether rising rates are pushing more apartment deals below lender DSCR minimums \u2014 and what that means for MAA's portfolio pricing"
   },
   "schedule": [
     {
@@ -712,14 +722,14 @@
     {
       "concept": "Cap rate",
       "taught_at": 47,
-      "due_at": 48,
-      "stage": 0
+      "due_at": 61,
+      "stage": 1
     },
     {
       "concept": "NOI",
       "taught_at": 48,
-      "due_at": 49,
-      "stage": 0
+      "due_at": 61,
+      "stage": 1
     },
     {
       "concept": "Price per square foot",
@@ -767,6 +777,12 @@
       "concept": "Leasable vs. rentable vs. usable square feet",
       "taught_at": 56,
       "due_at": 57,
+      "stage": 0
+    },
+    {
+      "concept": "Debt service coverage ratio",
+      "taught_at": 57,
+      "due_at": 58,
       "stage": 0
     }
   ]
