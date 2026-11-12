@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 11,
-  "streak": 57,
+  "concept_index": 12,
+  "streak": 58,
   "entries": [
     {
       "date": "2026-08-25",
@@ -562,25 +562,29 @@
         "NOI"
       ],
       "open_thread": "whether rising rates are pushing more apartment deals below lender DSCR minimums \u2014 and what that means for MAA's portfolio pricing"
+    },
+    {
+      "date": "2026-11-12",
+      "treasury_10y": 4.88,
+      "concept": "Loan-to-value and loan-to-cost",
+      "reviewed": [
+        "Free rent and effective rent",
+        "Preferred equity vs. mezzanine debt"
+      ],
+      "open_thread": ""
     }
   ],
   "last_entry": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "treasury_10y": 4.88,
-    "concept": "Debt service coverage ratio",
+    "concept": "Loan-to-value and loan-to-cost",
     "reviewed": [
-      "Cap rate",
-      "NOI"
+      "Free rent and effective rent",
+      "Preferred equity vs. mezzanine debt"
     ],
-    "open_thread": "whether rising rates are pushing more apartment deals below lender DSCR minimums \u2014 and what that means for MAA's portfolio pricing"
+    "open_thread": ""
   },
   "schedule": [
-    {
-      "concept": "Free rent and effective rent",
-      "taught_at": 23,
-      "due_at": 50,
-      "stage": 2
-    },
     {
       "concept": "Escalations and CPI bumps.",
       "taught_at": 24,
@@ -668,8 +672,8 @@
     {
       "concept": "Preferred equity vs. mezzanine debt",
       "taught_at": 38,
-      "due_at": 50,
-      "stage": 1
+      "due_at": 72,
+      "stage": 2
     },
     {
       "concept": "Submarket",
@@ -783,6 +787,12 @@
       "concept": "Debt service coverage ratio",
       "taught_at": 57,
       "due_at": 58,
+      "stage": 0
+    },
+    {
+      "concept": "Loan-to-value and loan-to-cost",
+      "taught_at": 58,
+      "due_at": 59,
       "stage": 0
     }
   ]
