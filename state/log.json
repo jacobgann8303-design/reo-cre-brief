@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 12,
-  "streak": 58,
+  "concept_index": 13,
+  "streak": 59,
   "entries": [
     {
       "date": "2026-08-25",
@@ -572,25 +572,29 @@
         "Preferred equity vs. mezzanine debt"
       ],
       "open_thread": ""
+    },
+    {
+      "date": "2026-11-13",
+      "treasury_10y": 4.98,
+      "concept": "The capital stack",
+      "reviewed": [
+        "Price per square foot",
+        "Escalations and CPI bumps."
+      ],
+      "open_thread": "how rising senior debt costs at today's 10-year rate compress equity returns \u2014 and at what rate does equity get wiped out entirely on a typical DFW multifamily deal?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-12",
-    "treasury_10y": 4.88,
-    "concept": "Loan-to-value and loan-to-cost",
+    "date": "2026-11-13",
+    "treasury_10y": 4.98,
+    "concept": "The capital stack",
     "reviewed": [
-      "Free rent and effective rent",
-      "Preferred equity vs. mezzanine debt"
+      "Price per square foot",
+      "Escalations and CPI bumps."
     ],
-    "open_thread": ""
+    "open_thread": "how rising senior debt costs at today's 10-year rate compress equity returns \u2014 and at what rate does equity get wiped out entirely on a typical DFW multifamily deal?"
   },
   "schedule": [
-    {
-      "concept": "Escalations and CPI bumps.",
-      "taught_at": 24,
-      "due_at": 51,
-      "stage": 2
-    },
     {
       "concept": "Anchor tenant and co-tenancy clauses",
       "taught_at": 25,
@@ -738,8 +742,8 @@
     {
       "concept": "Price per square foot",
       "taught_at": 49,
-      "due_at": 50,
-      "stage": 0
+      "due_at": 63,
+      "stage": 1
     },
     {
       "concept": "The four asset classes",
@@ -793,6 +797,12 @@
       "concept": "Loan-to-value and loan-to-cost",
       "taught_at": 58,
       "due_at": 59,
+      "stage": 0
+    },
+    {
+      "concept": "The capital stack",
+      "taught_at": 59,
+      "due_at": 60,
       "stage": 0
     }
   ]
