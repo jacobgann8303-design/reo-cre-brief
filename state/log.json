@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 13,
-  "streak": 59,
+  "concept_index": 14,
+  "streak": 60,
   "entries": [
     {
       "date": "2026-08-25",
@@ -582,17 +582,27 @@
         "Escalations and CPI bumps."
       ],
       "open_thread": "how rising senior debt costs at today's 10-year rate compress equity returns \u2014 and at what rate does equity get wiped out entirely on a typical DFW multifamily deal?"
+    },
+    {
+      "date": "2026-11-16",
+      "treasury_10y": 5.1,
+      "concept": "Equity waterfall and promote",
+      "reviewed": [
+        "Submarket",
+        "The four asset classes"
+      ],
+      "open_thread": "how the preferred return hurdle moves as the 10-year climbs \u2014 at what point does a 7% cap rate deal fail to clear an LP's minimum return requirement entirely?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-13",
-    "treasury_10y": 4.98,
-    "concept": "The capital stack",
+    "date": "2026-11-16",
+    "treasury_10y": 5.1,
+    "concept": "Equity waterfall and promote",
     "reviewed": [
-      "Price per square foot",
-      "Escalations and CPI bumps."
+      "Submarket",
+      "The four asset classes"
     ],
-    "open_thread": "how rising senior debt costs at today's 10-year rate compress equity returns \u2014 and at what rate does equity get wiped out entirely on a typical DFW multifamily deal?"
+    "open_thread": "how the preferred return hurdle moves as the 10-year climbs \u2014 at what point does a 7% cap rate deal fail to clear an LP's minimum return requirement entirely?"
   },
   "schedule": [
     {
@@ -682,8 +692,8 @@
     {
       "concept": "Submarket",
       "taught_at": 39,
-      "due_at": 51,
-      "stage": 1
+      "due_at": 74,
+      "stage": 2
     },
     {
       "concept": "Comparable sales (comps)",
@@ -748,8 +758,8 @@
     {
       "concept": "The four asset classes",
       "taught_at": 50,
-      "due_at": 51,
-      "stage": 0
+      "due_at": 64,
+      "stage": 1
     },
     {
       "concept": "The 10-year Treasury and cap rate spread",
@@ -803,6 +813,12 @@
       "concept": "The capital stack",
       "taught_at": 59,
       "due_at": 60,
+      "stage": 0
+    },
+    {
+      "concept": "Equity waterfall and promote",
+      "taught_at": 60,
+      "due_at": 61,
       "stage": 0
     }
   ]
