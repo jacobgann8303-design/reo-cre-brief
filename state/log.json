@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 14,
-  "streak": 60,
+  "concept_index": 15,
+  "streak": 61,
   "entries": [
     {
       "date": "2026-08-25",
@@ -592,25 +592,29 @@
         "The four asset classes"
       ],
       "open_thread": "how the preferred return hurdle moves as the 10-year climbs \u2014 at what point does a 7% cap rate deal fail to clear an LP's minimum return requirement entirely?"
+    },
+    {
+      "date": "2026-11-17",
+      "treasury_10y": 5.15,
+      "concept": "IRR vs. equity multiple",
+      "reviewed": [
+        "Anchor tenant and co-tenancy clauses",
+        "Comparable sales (comps)"
+      ],
+      "open_thread": "at what IRR does a value-add multifamily deal stop making sense relative to just buying a Treasury at 5.15%?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-16",
-    "treasury_10y": 5.1,
-    "concept": "Equity waterfall and promote",
+    "date": "2026-11-17",
+    "treasury_10y": 5.15,
+    "concept": "IRR vs. equity multiple",
     "reviewed": [
-      "Submarket",
-      "The four asset classes"
+      "Anchor tenant and co-tenancy clauses",
+      "Comparable sales (comps)"
     ],
-    "open_thread": "how the preferred return hurdle moves as the 10-year climbs \u2014 at what point does a 7% cap rate deal fail to clear an LP's minimum return requirement entirely?"
+    "open_thread": "at what IRR does a value-add multifamily deal stop making sense relative to just buying a Treasury at 5.15%?"
   },
   "schedule": [
-    {
-      "concept": "Anchor tenant and co-tenancy clauses",
-      "taught_at": 25,
-      "due_at": 52,
-      "stage": 2
-    },
     {
       "concept": "Lease rollover risk and the maturity wall.",
       "taught_at": 26,
@@ -698,8 +702,8 @@
     {
       "concept": "Comparable sales (comps)",
       "taught_at": 40,
-      "due_at": 52,
-      "stage": 1
+      "due_at": 75,
+      "stage": 2
     },
     {
       "concept": "Replacement cost",
@@ -819,6 +823,12 @@
       "concept": "Equity waterfall and promote",
       "taught_at": 60,
       "due_at": 61,
+      "stage": 0
+    },
+    {
+      "concept": "IRR vs. equity multiple",
+      "taught_at": 61,
+      "due_at": 62,
       "stage": 0
     }
   ]
