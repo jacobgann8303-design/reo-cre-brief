@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 15,
-  "streak": 61,
+  "concept_index": 16,
+  "streak": 62,
   "entries": [
     {
       "date": "2026-08-25",
@@ -602,17 +602,27 @@
         "Comparable sales (comps)"
       ],
       "open_thread": "at what IRR does a value-add multifamily deal stop making sense relative to just buying a Treasury at 5.15%?"
+    },
+    {
+      "date": "2026-11-18",
+      "treasury_10y": 5.12,
+      "concept": "Cash-on-cash return",
+      "reviewed": [
+        "The 10-year Treasury and cap rate spread",
+        "Replacement cost"
+      ],
+      "open_thread": "If the mortgage rate rises but NOI holds steady, at what point does cash-on-cash fall below the 10-year Treasury yield on this deal?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-17",
-    "treasury_10y": 5.15,
-    "concept": "IRR vs. equity multiple",
+    "date": "2026-11-18",
+    "treasury_10y": 5.12,
+    "concept": "Cash-on-cash return",
     "reviewed": [
-      "Anchor tenant and co-tenancy clauses",
-      "Comparable sales (comps)"
+      "The 10-year Treasury and cap rate spread",
+      "Replacement cost"
     ],
-    "open_thread": "at what IRR does a value-add multifamily deal stop making sense relative to just buying a Treasury at 5.15%?"
+    "open_thread": "If the mortgage rate rises but NOI holds steady, at what point does cash-on-cash fall below the 10-year Treasury yield on this deal?"
   },
   "schedule": [
     {
@@ -708,8 +718,8 @@
     {
       "concept": "Replacement cost",
       "taught_at": 41,
-      "due_at": 53,
-      "stage": 1
+      "due_at": 76,
+      "stage": 2
     },
     {
       "concept": "Supply pipeline",
@@ -768,8 +778,8 @@
     {
       "concept": "The 10-year Treasury and cap rate spread",
       "taught_at": 51,
-      "due_at": 52,
-      "stage": 0
+      "due_at": 66,
+      "stage": 1
     },
     {
       "concept": "Basis point",
@@ -829,6 +839,12 @@
       "concept": "IRR vs. equity multiple",
       "taught_at": 61,
       "due_at": 62,
+      "stage": 0
+    },
+    {
+      "concept": "Cash-on-cash return",
+      "taught_at": 62,
+      "due_at": 63,
       "stage": 0
     }
   ]
