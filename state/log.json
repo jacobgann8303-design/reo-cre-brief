@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 16,
-  "streak": 62,
+  "concept_index": 17,
+  "streak": 63,
   "entries": [
     {
       "date": "2026-08-25",
@@ -612,25 +612,29 @@
         "Replacement cost"
       ],
       "open_thread": "If the mortgage rate rises but NOI holds steady, at what point does cash-on-cash fall below the 10-year Treasury yield on this deal?"
+    },
+    {
+      "date": "2026-11-19",
+      "treasury_10y": 5.1,
+      "concept": "Going-in vs. exit cap rate",
+      "reviewed": [
+        "Basis point",
+        "Lease rollover risk and the maturity wall."
+      ],
+      "open_thread": "If cap rates expand from your going-in assumption at exit, how much NOI growth does a property need just to break even on price?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-18",
-    "treasury_10y": 5.12,
-    "concept": "Cash-on-cash return",
+    "date": "2026-11-19",
+    "treasury_10y": 5.1,
+    "concept": "Going-in vs. exit cap rate",
     "reviewed": [
-      "The 10-year Treasury and cap rate spread",
-      "Replacement cost"
+      "Basis point",
+      "Lease rollover risk and the maturity wall."
     ],
-    "open_thread": "If the mortgage rate rises but NOI holds steady, at what point does cash-on-cash fall below the 10-year Treasury yield on this deal?"
+    "open_thread": "If cap rates expand from your going-in assumption at exit, how much NOI growth does a property need just to break even on price?"
   },
   "schedule": [
-    {
-      "concept": "Lease rollover risk and the maturity wall.",
-      "taught_at": 26,
-      "due_at": 54,
-      "stage": 2
-    },
     {
       "concept": "Percentage rent",
       "taught_at": 27,
@@ -784,8 +788,8 @@
     {
       "concept": "Basis point",
       "taught_at": 52,
-      "due_at": 53,
-      "stage": 0
+      "due_at": 67,
+      "stage": 1
     },
     {
       "concept": "Vacancy vs. availability",
@@ -845,6 +849,12 @@
       "concept": "Cash-on-cash return",
       "taught_at": 62,
       "due_at": 63,
+      "stage": 0
+    },
+    {
+      "concept": "Going-in vs. exit cap rate",
+      "taught_at": 63,
+      "due_at": 64,
       "stage": 0
     }
   ]
