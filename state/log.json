@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 17,
-  "streak": 63,
+  "concept_index": 18,
+  "streak": 64,
   "entries": [
     {
       "date": "2026-08-25",
@@ -622,17 +622,27 @@
         "Lease rollover risk and the maturity wall."
       ],
       "open_thread": "If cap rates expand from your going-in assumption at exit, how much NOI growth does a property need just to break even on price?"
+    },
+    {
+      "date": "2026-11-20",
+      "treasury_10y": 5.07,
+      "concept": "Pro forma",
+      "reviewed": [
+        "Vacancy vs. availability",
+        "Supply pipeline"
+      ],
+      "open_thread": "If the vacancy assumption in a pro forma turns out to be wrong by just 5%, how much does that move the implied purchase price at today's cap rates?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-19",
-    "treasury_10y": 5.1,
-    "concept": "Going-in vs. exit cap rate",
+    "date": "2026-11-20",
+    "treasury_10y": 5.07,
+    "concept": "Pro forma",
     "reviewed": [
-      "Basis point",
-      "Lease rollover risk and the maturity wall."
+      "Vacancy vs. availability",
+      "Supply pipeline"
     ],
-    "open_thread": "If cap rates expand from your going-in assumption at exit, how much NOI growth does a property need just to break even on price?"
+    "open_thread": "If the vacancy assumption in a pro forma turns out to be wrong by just 5%, how much does that move the implied purchase price at today's cap rates?"
   },
   "schedule": [
     {
@@ -728,8 +738,8 @@
     {
       "concept": "Supply pipeline",
       "taught_at": 42,
-      "due_at": 55,
-      "stage": 1
+      "due_at": 78,
+      "stage": 2
     },
     {
       "concept": "Migration and household formation",
@@ -794,8 +804,8 @@
     {
       "concept": "Vacancy vs. availability",
       "taught_at": 53,
-      "due_at": 54,
-      "stage": 0
+      "due_at": 68,
+      "stage": 1
     },
     {
       "concept": "Absorption",
@@ -855,6 +865,12 @@
       "concept": "Going-in vs. exit cap rate",
       "taught_at": 63,
       "due_at": 64,
+      "stage": 0
+    },
+    {
+      "concept": "Pro forma",
+      "taught_at": 64,
+      "due_at": 65,
       "stage": 0
     }
   ]
