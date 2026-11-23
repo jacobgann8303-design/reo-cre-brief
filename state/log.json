@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 18,
-  "streak": 64,
+  "concept_index": 19,
+  "streak": 65,
   "entries": [
     {
       "date": "2026-08-25",
@@ -632,25 +632,29 @@
         "Supply pipeline"
       ],
       "open_thread": "If the vacancy assumption in a pro forma turns out to be wrong by just 5%, how much does that move the implied purchase price at today's cap rates?"
+    },
+    {
+      "date": "2026-11-23",
+      "treasury_10y": 4.92,
+      "concept": "Offering memorandum",
+      "reviewed": [
+        "Absorption",
+        "Percentage rent"
+      ],
+      "open_thread": "If two OMs show the same cap rate but one uses a 5% vacancy assumption and the other uses 10%, what does that difference tell a buyer about the risk they're actually taking on?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-20",
-    "treasury_10y": 5.07,
-    "concept": "Pro forma",
+    "date": "2026-11-23",
+    "treasury_10y": 4.92,
+    "concept": "Offering memorandum",
     "reviewed": [
-      "Vacancy vs. availability",
-      "Supply pipeline"
+      "Absorption",
+      "Percentage rent"
     ],
-    "open_thread": "If the vacancy assumption in a pro forma turns out to be wrong by just 5%, how much does that move the implied purchase price at today's cap rates?"
+    "open_thread": "If two OMs show the same cap rate but one uses a 5% vacancy assumption and the other uses 10%, what does that difference tell a buyer about the risk they're actually taking on?"
   },
   "schedule": [
-    {
-      "concept": "Percentage rent",
-      "taught_at": 27,
-      "due_at": 56,
-      "stage": 2
-    },
     {
       "concept": "Common area maintenance (CAM) reconciliation.",
       "taught_at": 28,
@@ -810,8 +814,8 @@
     {
       "concept": "Absorption",
       "taught_at": 54,
-      "due_at": 55,
-      "stage": 0
+      "due_at": 69,
+      "stage": 1
     },
     {
       "concept": "Class A / B / C",
@@ -871,6 +875,12 @@
       "concept": "Pro forma",
       "taught_at": 64,
       "due_at": 65,
+      "stage": 0
+    },
+    {
+      "concept": "Offering memorandum",
+      "taught_at": 65,
+      "due_at": 66,
       "stage": 0
     }
   ]
