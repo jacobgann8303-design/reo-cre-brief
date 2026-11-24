@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 19,
-  "streak": 65,
+  "concept_index": 20,
+  "streak": 66,
   "entries": [
     {
       "date": "2026-08-25",
@@ -642,17 +642,27 @@
         "Percentage rent"
       ],
       "open_thread": "If two OMs show the same cap rate but one uses a 5% vacancy assumption and the other uses 10%, what does that difference tell a buyer about the risk they're actually taking on?"
+    },
+    {
+      "date": "2026-11-24",
+      "treasury_10y": 4.92,
+      "concept": "Due diligence period",
+      "reviewed": [
+        "Migration and household formation",
+        "Class A / B / C"
+      ],
+      "open_thread": "If a buyer's due diligence period expires and they haven't terminated, what exactly have they given up \u2014 and what does \"going hard\" on earnest money mean?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "treasury_10y": 4.92,
-    "concept": "Offering memorandum",
+    "concept": "Due diligence period",
     "reviewed": [
-      "Absorption",
-      "Percentage rent"
+      "Migration and household formation",
+      "Class A / B / C"
     ],
-    "open_thread": "If two OMs show the same cap rate but one uses a 5% vacancy assumption and the other uses 10%, what does that difference tell a buyer about the risk they're actually taking on?"
+    "open_thread": "If a buyer's due diligence period expires and they haven't terminated, what exactly have they given up \u2014 and what does \"going hard\" on earnest money mean?"
   },
   "schedule": [
     {
@@ -748,8 +758,8 @@
     {
       "concept": "Migration and household formation",
       "taught_at": 43,
-      "due_at": 56,
-      "stage": 1
+      "due_at": 80,
+      "stage": 2
     },
     {
       "concept": "Broker vs. principal vs. advisor",
@@ -820,8 +830,8 @@
     {
       "concept": "Class A / B / C",
       "taught_at": 55,
-      "due_at": 56,
-      "stage": 0
+      "due_at": 70,
+      "stage": 1
     },
     {
       "concept": "Leasable vs. rentable vs. usable square feet",
@@ -881,6 +891,12 @@
       "concept": "Offering memorandum",
       "taught_at": 65,
       "due_at": 66,
+      "stage": 0
+    },
+    {
+      "concept": "Due diligence period",
+      "taught_at": 66,
+      "due_at": 67,
       "stage": 0
     }
   ]
