@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 20,
-  "streak": 66,
+  "concept_index": 21,
+  "streak": 67,
   "entries": [
     {
       "date": "2026-08-25",
@@ -652,25 +652,29 @@
         "Class A / B / C"
       ],
       "open_thread": "If a buyer's due diligence period expires and they haven't terminated, what exactly have they given up \u2014 and what does \"going hard\" on earnest money mean?"
+    },
+    {
+      "date": "2026-11-25",
+      "treasury_10y": 4.92,
+      "concept": "Triple net (NNN) vs. gross vs. modified gross",
+      "reviewed": [
+        "Common area maintenance (CAM) reconciliation.",
+        "Broker vs. principal vs. advisor"
+      ],
+      "open_thread": "If a NNN tenant's expenses spike unexpectedly mid-lease, what tools \u2014 if any \u2014 does the tenant have to push back or cap their exposure?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "treasury_10y": 4.92,
-    "concept": "Due diligence period",
+    "concept": "Triple net (NNN) vs. gross vs. modified gross",
     "reviewed": [
-      "Migration and household formation",
-      "Class A / B / C"
+      "Common area maintenance (CAM) reconciliation.",
+      "Broker vs. principal vs. advisor"
     ],
-    "open_thread": "If a buyer's due diligence period expires and they haven't terminated, what exactly have they given up \u2014 and what does \"going hard\" on earnest money mean?"
+    "open_thread": "If a NNN tenant's expenses spike unexpectedly mid-lease, what tools \u2014 if any \u2014 does the tenant have to push back or cap their exposure?"
   },
   "schedule": [
-    {
-      "concept": "Common area maintenance (CAM) reconciliation.",
-      "taught_at": 28,
-      "due_at": 57,
-      "stage": 2
-    },
     {
       "concept": "CMBS",
       "taught_at": 29,
@@ -764,8 +768,8 @@
     {
       "concept": "Broker vs. principal vs. advisor",
       "taught_at": 44,
-      "due_at": 57,
-      "stage": 1
+      "due_at": 81,
+      "stage": 2
     },
     {
       "concept": "The CRE career ladder",
@@ -897,6 +901,12 @@
       "concept": "Due diligence period",
       "taught_at": 66,
       "due_at": 67,
+      "stage": 0
+    },
+    {
+      "concept": "Triple net (NNN) vs. gross vs. modified gross",
+      "taught_at": 67,
+      "due_at": 68,
       "stage": 0
     }
   ]
