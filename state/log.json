@@ -1,7 +1,7 @@
 {
   "reit": "MAA",
-  "concept_index": 22,
-  "streak": 68,
+  "concept_index": 23,
+  "streak": 69,
   "entries": [
     {
       "date": "2026-08-25",
@@ -672,17 +672,27 @@
         "The CRE career ladder"
       ],
       "open_thread": "If a landlord offers a high TI allowance to win a tenant in a soft market, what happens to that deal if the tenant goes dark or defaults in year two \u2014 does the landlord have any way to claw that money back?"
+    },
+    {
+      "date": "2026-11-27",
+      "treasury_10y": 4.91,
+      "concept": "Free rent and effective rent",
+      "reviewed": [
+        "Debt service coverage ratio",
+        "ARGUS"
+      ],
+      "open_thread": "If a building's leases are full of heavy free-rent concessions, how does an appraiser decide which rent number \u2014 face or effective \u2014 to use when valuing the property?"
     }
   ],
   "last_entry": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "treasury_10y": 4.91,
-    "concept": "Tenant improvement allowance and leasing commissions",
+    "concept": "Free rent and effective rent",
     "reviewed": [
-      "Leasable vs. rentable vs. usable square feet",
-      "The CRE career ladder"
+      "Debt service coverage ratio",
+      "ARGUS"
     ],
-    "open_thread": "If a landlord offers a high TI allowance to win a tenant in a soft market, what happens to that deal if the tenant goes dark or defaults in year two \u2014 does the landlord have any way to claw that money back?"
+    "open_thread": "If a building's leases are full of heavy free-rent concessions, how does an appraiser decide which rent number \u2014 face or effective \u2014 to use when valuing the property?"
   },
   "schedule": [
     {
@@ -790,8 +800,8 @@
     {
       "concept": "ARGUS",
       "taught_at": 46,
-      "due_at": 59,
-      "stage": 1
+      "due_at": 83,
+      "stage": 2
     },
     {
       "concept": "Cap rate",
@@ -856,8 +866,8 @@
     {
       "concept": "Debt service coverage ratio",
       "taught_at": 57,
-      "due_at": 58,
-      "stage": 0
+      "due_at": 73,
+      "stage": 1
     },
     {
       "concept": "Loan-to-value and loan-to-cost",
@@ -923,6 +933,12 @@
       "concept": "Tenant improvement allowance and leasing commissions",
       "taught_at": 68,
       "due_at": 69,
+      "stage": 0
+    },
+    {
+      "concept": "Free rent and effective rent",
+      "taught_at": 69,
+      "due_at": 70,
       "stage": 0
     }
   ]
